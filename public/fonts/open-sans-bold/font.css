@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('OpenSans-Bold.woff') format('woff'),
+       url('OpenSans-Bold.ttf') format('truetype'),
+       url('OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open-sans-bold';
+  src: url('open-sans-bold.eot');
+  src: url('open-sans-bold.woff2') format('woff2'),
+       url('open-sans-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

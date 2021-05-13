@@ -1,0 +1,318 @@
+/////////////////////// BLOCK MMENU
+.block-mmenu {
+    height: 50px;
+    background: #0B729A;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 0px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+
+    .mobile-mmenu-burger {
+        list-style: none;
+        padding-left: 0px;
+
+        .item-mmenu.item-mmenu-mburger {
+
+            .link-item-mmenu {
+                color: #FFFFFF;
+                bottom: 10px;
+                left: 16px;
+
+                b {
+
+
+                    width: 25px;
+
+
+                }
+            }
+
+            .text-burger {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 9px;
+                line-height: 12px;
+                color: #FFFFFF;
+                position: absolute;
+                top: 34px;
+                width: max-content;
+                left: 42px;
+
+            }
+
+
+        }
+
+        .item-mmenu.item-mmenu-mail {
+
+
+            .link-item-mmenu {
+
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/icon_menu_mail.png') no-repeat;
+                    width: 22px;
+                    height: 17px;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: 12px;
+                    left: 33px;
+                }
+
+                .text-link {
+                    left: 7px;
+                    top: 34px;
+
+                }
+
+            }
+
+        }
+
+        .item-mmenu.item-mmenu-phone {
+
+
+            b {
+
+                &:not(:first-child) {
+
+                }
+
+            }
+
+            .link-item-mmenu {
+                display: block;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/mobile/icon_menu_phone.png') no-repeat;
+                    width: 18px;
+                    height: 19px;
+                    top: 11px;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                .text-link {
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    top: 34px;
+                }
+
+            }
+        }
+
+
+        .item-mmenu {
+            display: inline-block;
+            position: relative;
+
+            .link-item-mmenu {
+                position: relative;
+                text-decoration: none;
+                display: inline-block;
+                box-sizing: border-box;
+                height: 60px;
+                padding: 0 0 0 0;
+                margin: 0;
+                line-height: 60%;
+                vertical-align: middle;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                outline: none;
+
+                &:hover {
+                    text-decoration: none;
+                }
+
+                .text-link {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 9px;
+                    display: block;
+                    line-height: 12px;
+                    color: #FFFFFF;
+                    text-align: center;
+                    position: absolute;
+                    width: max-content;
+
+                }
+            }
+
+        }
+
+
+    }
+
+
+}
+
+/////////////////////// END BLOCK MMENU
+
+/////////////////////// MOBILE MENU
+
+////////////// PANEL MMENU BOTTOM
+.panel-mmenu-bottom {
+    margin-top: 10px;
+    .item-panel {
+
+
+    }
+
+    .item-panel.item-panel-vk {
+        background: url('/img/tpl_img/tablet/icon_vk_menu.png') no-repeat;
+        width: 23px;
+        height: 13px;
+        margin-top: 20px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .item-panel.item-panel-requisites {
+        position: relative;
+        margin-top: 24px;
+        .menu-requisites {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            letter-spacing: 0.08em;
+            color: #FFFFFF;
+
+
+        }
+
+        &:after {
+            position: absolute;
+            content: "";
+            display: block;
+            height: 1px;
+            background: #fff;
+            width: 80%;
+            left: 0;
+            right: 0;
+            bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    }
+
+
+}
+
+////////////// END PANEL MMENU BOTTOM
+
+
+///////// MOBILE MENU
+
+.mobile-menu.mm-menu_popup {
+
+}
+.mobile-menu.mm-menu {
+    .mm-listitem__text {
+
+    }
+
+
+    .mm-panels {
+
+        .mm-panel {
+
+        }
+
+        .mm-panel.mm-panel_opened {
+            .mm-btn_next:after, .mm-btn_prev:before{
+                width:  10px;
+                height: 10px;
+            }
+            .mm-navbar.mm-navbar_sticky {
+
+            }
+
+
+            .main-menu, .sub-menu {
+
+
+
+
+                .item-main-menu.active{
+                    text-decoration: underline;
+                }
+                .item-main-menu.mm-listitem {
+                    .mm-btn.mm-btn_next.mm-listitem__btn {
+                        line-height: 18.6px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 1.0556rem;
+                        letter-spacing: 0.08em;
+                        color: #FFFFFF;
+                    }
+
+                    &:after {
+
+                    }
+
+                    .link-item-main-menu {
+                        line-height: 18.6px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 1.0556rem;
+                        letter-spacing: 0.08em;
+                        color: #FFFFFF;
+
+                        &:not(:first-child) {
+
+                        }
+
+
+                        &:after {
+
+                        }
+
+                    }
+
+                }
+
+
+            }
+        }
+
+    }
+}
+.mobile-menu.mm-menu {
+    --mm-offset-top: 0px;
+    --mm-offset-bottom: 50px;
+
+
+    .mm-panels {
+        margin-right: 0px;
+    }
+    .mm-iconbar {
+        display: none;
+    }
+}
+/////////////////////// END MOBILE MENU
+
+
+

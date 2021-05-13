@@ -1,0 +1,138 @@
+.block-view-material {
+    padding-bottom: 78px;
+    position: relative;
+    .container-main-description {
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background: #F3F9FB;
+        position: relative;
+        .link-prev-articles {
+
+            .text-link{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                letter-spacing: 0.07em;
+                color: #FFFFFF;
+            }
+
+            background: url('/img/tpl_img/arrow_article_prev.png') #096E96 7% 50% no-repeat;
+            box-shadow: 0px 10px 40px -5px rgba(25, 133, 175, 0.3);
+            line-height: 61px;
+            width: 357px;
+            height: 61px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 87px;
+
+            display: block;
+
+            text-decoration: none;
+            border-radius: 5px;
+            &:hover{
+                text-decoration: none;
+            }
+
+        }
+
+        .header-block-view-material {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 66px;
+            color: #000000;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                background: url('/img/tpl_img/icon_title.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                margin: auto;
+                right: 0;
+                left: 0;
+                bottom: -44px;
+            }
+        }
+
+
+        .description-material {
+            margin-top: 80px;
+            padding-left: 99px;
+            padding-right: 99px;
+
+
+            .img-left{
+                float: left;
+            }
+            .img-right {
+                float: right;
+            }
+
+            img {
+                float: left;
+            }
+
+
+            h2{
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                color: #000000;
+                font-size: 25px;
+            }
+            h3{
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                color: #000000;
+                font-size: 23px;
+            }
+
+p{
+    text-align: left;
+}
+            ul{
+                li{
+                    text-align: left;
+                }
+            }
+            * {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                text-align: left;
+            }
+
+        }
+
+    }
+
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    .block-form {
+        margin-top: 162px;
+    }
+
+}

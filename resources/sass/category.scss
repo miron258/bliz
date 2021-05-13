@@ -1,0 +1,8 @@
+@import "desktop/category/category";
+
+@media (max-width: 1069px) {
+    @import "tablet/category/category_tablet";
+}
+@media (max-width: 576px) {
+    @import "mobile/category/category_mobile";
+}

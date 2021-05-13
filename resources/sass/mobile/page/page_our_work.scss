@@ -1,0 +1,423 @@
+/************************************* МОБАЙЛ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+.block-view-page.block-view-page-our-work {
+
+    .header-block-view-page {
+
+
+    }
+
+
+    .container-main-description {
+
+
+        .container {
+
+
+        }
+
+    }
+
+
+    /////////////////////// description page
+    .description-page.description-page-our-work {
+        padding-left: 0px;
+        padding-right: 0px;
+
+
+        * {
+
+        }
+
+        p {
+
+            &:last-child {
+
+            }
+
+        }
+
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-our-work {
+
+
+        //////////////////////////////// BLOCK OUR WORK
+        .block-page-work {
+
+
+            ////// List Order Work Mobile
+            @import "../layouts/list_order_work";
+        }
+
+        //////////////////////////////// END  BLOCK OUR WORK
+
+
+        ////////////////// Block Gallery Page Our Work
+        .block-gallery-page-our-work {
+
+
+            .title-gallery-page-our-work {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 31px;
+                text-align: center;
+
+                &:after {
+                    background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                    width: 118px;
+                    height: 25px;
+                    bottom: -42px;
+                }
+            }
+
+
+            .block-list-gallery {
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 2.5rem;
+
+
+
+                ////////////////////////// ROW LIST GALLERY
+                .row-list-gallery {
+
+                    &:not(:first-child){
+                        margin-top: 0rem;
+                    }
+
+                    ////////////////////// Box Gallery Left
+                    .box-gallery.box-gallery-left {
+
+
+                        margin-top: 1.5rem;
+
+                        .nav-dots {
+
+
+                            .slick-dots {
+
+                                .slick-active {
+                                    button {
+
+
+                                        &:before {
+
+                                        }
+                                    }
+                                }
+
+                                li {
+
+
+                                    &:not(:first-child) {
+
+                                    }
+
+                                    button {
+
+                                        &:before {
+
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+
+                    ////////////////////// End Box Gallery Left
+
+
+                    ////////////////////// Box Gallery Right
+                    .box-gallery.box-gallery-right {
+                        margin-top: 1.5rem;
+
+                    }
+
+                    ////////////////////// End Box Gallery Right
+
+                    ////// Default Box Gallery
+                    .box-gallery {
+
+
+                        .slick-carousel-work-gallery {
+
+
+                            .img-gallery {
+                                height: auto;
+                            }
+                        }
+
+                        .description-gallery {
+                            padding-top: 0.5rem;
+                            padding-left: 0.7rem;
+                            margin-top: 0px;
+
+                            .list-description-gallery {
+
+
+                                ///// Item Text Gallery
+                                .item-text-gallery {
+                                    font-size: 14px;
+                                    line-height: 20px;
+
+                                   &:before{
+                                       top: 2px;
+                                   }
+
+
+                                    &:not(:first-child) {
+                                        margin-top: 0.3rem;
+                                    }
+
+                                }
+
+                                ///// End Item Text Gallery
+                            }
+
+                        }
+                    }
+
+                    ////// End Box Gallery
+                }
+
+                ////////////////////////// END ROW LIST GALLERY
+
+
+            }
+
+
+        }
+
+        ////////////////// End Block Gallery Page Our Work
+
+
+        ////////////////////////////// BLOCK CASING OPTIONS ////////////////////////////////////
+        .block-casing-options {
+
+
+            .title-block-casing-options {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 31px;
+                text-align: center;
+
+                &:after {
+                    background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                    width: 118px;
+                    height: 25px;
+                    bottom: -42px;
+                }
+            }
+
+
+            .list-casing-options {
+                margin-top: 3rem;
+                margin-left: 0px;
+
+                .slick-carousel-casing-options {
+                    position: relative;
+                    margin: 0 auto;
+                    //////////////// navigation arrows
+                    .slick-arrow {
+                        z-index: 3;
+                        border: none;
+                        outline: none;
+                        position: absolute;
+                        top: 40%;
+                    }
+
+                    .slick-arrow.slick-carousel-control-next {
+                        background: url('/img/tpl_img/mobile/arrow_next_black.png') no-repeat;
+                        width: 20px;
+                        height: 37px;
+                        right: -40px;
+                        position: absolute;
+
+                    }
+
+                    .slick-arrow.slick-carousel-control-prev {
+                        background: url('/img/tpl_img/mobile/arrow_prev_black.png') no-repeat;
+                        width: 20px;
+                        height: 37px;
+                        left: -40px;
+                        position: absolute;
+                    }
+
+
+                    //////////////// end navigation arrows
+
+
+                    //////// Box Casing Option
+                    .box-casing-option.box-casing-option1 {
+
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option2 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+
+
+                    }
+
+                    .box-casing-option.box-casing-option3 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option4 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    //// Default Styles Box Casing Option
+                    .box-casing-option {
+                        &:not(:first-child) {
+                            margin-left: 0px;
+                        }
+
+                        .img-casing-option {
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+
+                        .name-casing-option {
+                            text-align: center;
+
+                            br {
+                                display: none;
+                            }
+
+                            top: 0px;
+                        }
+
+                    }
+
+                    //////// End Box Casing Option
+
+
+                }
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK CASING OPTIONS ////////////////////////////////////
+
+
+        ////////////////////////////// BLOCK FORM ////////////////////////////////////
+        @import '../layouts/block_form';
+        //@import 'blocks_scss_tablet/block_form';
+        //@import 'blocks_scss_mobile/block_form';
+
+        .block-form {
+            margin-top: 25px;
+
+            .container-block-form {
+                .title-form-send {
+
+
+                }
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK FORM ////////////////////////////////////
+
+
+        ////////////////////////////// BLOCK REQUIREMENTS ////////////////////////////////////
+        .block-requirements {
+            padding-bottom: 3rem;
+
+            .title-block-requirements {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 31px;
+                text-align: center;
+
+                &:after {
+                    background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                    width: 118px;
+                    height: 25px;
+                    bottom: -42px;
+                }
+            }
+
+            .subtitle-block-requirements {
+                margin-top: 3.5rem;
+                font-size: px;
+                padding-left: 0px;
+                text-align: center;
+                padding-right: 0px;
+
+                br {
+
+                }
+            }
+
+
+            .block-list-requirements {
+
+                ////// List Requirements
+                .list-requirements {
+                    padding-left: 30px;
+                    margin-top: 1rem;
+
+                    .item-requirement {
+                        font-size: 14px;
+
+                        &:before {
+                            left: -28px;
+                            top: 3px;
+                        }
+
+                        &:not(:first-child) {
+                            margin-top: 0.5rem;
+                        }
+                    }
+                }
+
+                ////// End List Requirements
+
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK REQUIREMENTS ////////////////////////////////////
+
+
+    }
+
+
+}
+
+/************************************* КОНЕЦ МОБАЙЛ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/

@@ -1,0 +1,47 @@
+// Body
+$body-bg: #fff;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+
+$grid-columns:      12;
+$grid-gutter-width: 30px;
+
+//На этих разрешениях будет начинатся пересчет размеров контейнеров в этих переменных задается
+$grid-breakpoints: (
+    // Extra small screen / phone
+    xs: 0,
+    // Small screen / phone
+    sm: 576px,
+    // Medium screen / tablet
+    md: 650px,
+    // Large screen / desktop
+    lg: 1169px,
+    // Extra large screen / wide desktop
+    xl: 1170px
+);
+
+//Containers
+$container-max-widths: (
+    sm: 650px,
+    md: 768px,
+    lg: 960px,
+    xl: 1170px //Ширина макета по краям сетки 1218px плюс отсутпы по 15px с обеих сторон итого 1248px
+) !default;
+
+

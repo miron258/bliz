@@ -1,0 +1,83 @@
+////////////////////////////////////// BLOCK LIST ORDERS
+.block-list-orders {
+    margin-top: 25px;
+    padding-bottom: 8px;
+
+    .title-block-list-orders {
+        margin: 0 auto;
+        text-align: center;
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        color: #000000;
+    }
+
+    .row-list-orders {
+
+        .wrapper-list-orders {
+            margin: 0 auto;
+
+            .list-orders {
+                list-style: none;
+                padding-left: 0px;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 35px;
+                /// Item Order
+                .item-order {
+                    position: relative;
+                    display: inline-block;
+                    text-align: center;
+
+                    &:not(:first-child) {
+                        margin-left: 12px;
+                    }
+
+                    &:last-child {
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        height: 41px;
+                        background: #5B5959;
+                        width: 1px;
+                        position: absolute;
+                        right: -7px;
+                        top: -3px;
+                    }
+
+                    .item-link-order {
+                        text-decoration: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 17px;
+                        display: block;
+                        line-height: 19px;
+                        text-align: center;
+                        letter-spacing: 0.05em;
+                        color: #3EA3BC;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                /// End Item Order
+
+            }
+
+        }
+
+    }
+
+}
+
+////////////////////////////////////// END BLOCK LIST ORDERS

@@ -1,0 +1,71 @@
+//////////////////////// HEADER MOBILE
+
+
+.header-mobile {
+    height: 336px;
+    background: url('/img/tpl_img/mobile/header_bg_mobile.png') center center no-repeat;
+    background-size: cover;
+    .mobile-tablet-header {
+        background: url('/img/tpl_img/mobile/bg_header_top_block_mobile.png') center center no-repeat;
+        height: 116px;
+        background-size: cover;
+
+        .mburger {
+
+
+            b {
+
+            }
+        }
+
+
+        ///// BLOCK LOGO
+        .block-logo {
+
+
+            margin-top: 30px;
+            margin-left: 0px;
+
+            .link-block-logo {
+
+
+                &:hover {
+
+                }
+
+                .img-logo {
+                }
+            }
+        }
+
+        ///// END BLOCK LOGO
+
+        ////////// BLOCK HEADER PHONE
+        .block-header-phone {
+            margin-top: 2.32rem;
+            right: 5px;
+
+            .link-phone {
+                font-size: 1.0556rem;
+
+
+                &:before {
+                    background: url('/img/tpl_img/mobile/icon_phone_mobile.png') no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    left: -26px;
+                    top: 2px;
+                }
+
+
+            }
+
+
+        }
+
+        ////////// END BLOCK HEADER PHONE
+
+    }
+}
+
+//////////////////////// END HEADER MOBILE

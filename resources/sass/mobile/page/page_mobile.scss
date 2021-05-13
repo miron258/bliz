@@ -1,0 +1,113 @@
+/******************************* Default css Mobile ******************************/
+
+////// Block View Page
+.block-view-page {
+    padding-top: 0px;
+    position: relative;
+
+    /////////// Header View Page Default
+    .wrapper-header-block-view-page {
+
+        .header-block-view-page {
+
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 31px;
+            text-align: center;
+
+            &:after {
+                background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                width: 118px;
+                height: 25px;
+                bottom: -42px;
+            }
+
+        }
+    }
+
+    /////////// End Header View Page Default
+
+
+    .container-main-description {
+        padding-top: 3.2rem;
+
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+
+            ///// description page default
+            .description-page {
+                margin-top: 4.35rem;
+
+                ul {
+                    padding-left: 0px;
+
+                    li {
+
+                    }
+                }
+
+                p {
+                    &:first-child {
+
+                    }
+
+
+                    &:not(:first-child) {
+
+                    }
+                }
+
+                * {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: #343434;
+                }
+
+                .text-middle, .text-bottom {
+
+                }
+
+
+            }
+
+            ///// end description page default
+        }
+    }
+
+
+    //// html page default
+    .html-page {
+
+
+    }
+
+    //// end html page default
+
+
+}
+
+/******************************* End Default css mobile ******************************/
+
+
+///////////////////// Import style inner pages mobile
+@import 'page_about_us';
+@import 'page_well_boring';
+@import 'page_our_work';
+@import 'page_rem_skvazhin';
+@import 'page_izvlechenie_nasosov';
+@import 'page_engineering_survey';
+@import 'page_obustroistvo_skvazhini';
+@import 'page_contacts';
+@import 'page_reviews';
+//////////////////// end Import style inner pages mobile
+
+
+

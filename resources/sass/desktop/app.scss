@@ -1,0 +1,22 @@
+.wrapper-bg{
+    //background: #3C5C80;
+    //background-image: url('/img/tpl_img/bg_body.png');
+    background: url('/img/tpl_img/bg_body.png') top center no-repeat, linear-gradient(0deg, #3C5C80, #3C5C80) bottom;
+
+    //background: url('/img/tpl_img/bg_body.png') top center no-repeat; /* fallback */
+    //background-image: linear-gradient(0deg, #3C5C80, #3C5C80);
+
+
+    position: relative;
+    z-index: 1;
+    height: 4948px;
+}
+body { background: #fff !important; }
+@import 'layouts/header';
+@import 'layouts/block_company';
+@import 'layouts/block_services';
+@import 'layouts/block_work';
+@import 'layouts/block_price';
+@import 'layouts/block_form';
+@import 'layouts/block_reviews';
+@import 'layouts/footer';

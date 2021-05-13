@@ -1,0 +1,17 @@
+@media (max-width: 1069px) {
+    .wrapper-bg {
+        background: url('/img/tpl_img/bg_body.png') top center no-repeat, linear-gradient(0deg, #3C5C80, #3C5C80) bottom;
+        background-size: cover;
+        height: 3760px;
+    }
+    @import "mmenu_tablet";
+    @import "layouts/header";
+    @import "layouts/block_company";
+    @import "layouts/block_services";
+    @import "layouts/block_work";
+    @import "layouts/block_price";
+    @import "layouts/block_form";
+    @import "layouts/block_reviews";
+
+
+}

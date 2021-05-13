@@ -1,0 +1,200 @@
+.container-block-reviews {
+    padding-top: 15px;
+    padding-bottom: 24px;
+    border-radius: 20px;
+    .title-block-reviews {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.75rem;
+        line-height: 115%;
+        /* identical to box height, or 51px */
+        text-align: center;
+
+
+        &:after {
+            background: url('/img/tpl_img/icon_title_tablet.png') no-repeat;
+            width: 176px;
+            height: 37px;
+            bottom: -58px;
+        }
+    }
+
+
+    .block-list-reviews {
+        padding-top: 5.35rem;
+        ///////////////// dots nav
+        .nav-dots {
+
+
+            .slick-dots {
+                bottom: 0px;
+                left: 0px;
+                //// Active slick dot
+                li.slick-active {
+
+                    button {
+
+
+                        &:before {
+
+                        }
+                    }
+
+                }
+
+                //// End Active slick dot
+
+
+                //// Not active slick dot
+                li {
+
+
+                    button {
+
+
+                        &:not(:first-child) {
+
+                        }
+
+
+                        &:before {
+
+                        }
+                    }
+                }
+
+                //// End Not active slick dot
+
+            }
+        }
+
+        ///////////////// end dots nav
+
+
+        .slick-carousel-reviews {
+            padding-left: 2.6rem;
+            padding-right: 2.6rem;
+
+            ////// BOX REVIEW
+            .box-review {
+
+                .img-reviewer {
+                    display: none;
+
+                    img {
+
+                    }
+
+                }
+
+                /////// BLOCK REVIEWER
+                .block-reviewer {
+                    padding-left: 0px;
+                    width: 244px;
+
+
+
+                    //////// DESCRIPTION REVIEWER
+
+
+                    .description-reviewer {
+
+
+                        //// Img Reviewer
+                        .img-reviewer{
+                            img{
+
+                            }
+                        }
+                        //// End Img Reviewer
+
+
+                        ///// Block Info Reviewer
+                        .block-info-reviewer.indent-left{
+                            padding-left: 0rem;
+                        }
+                        .block-info-reviewer {
+                            .name-reviewer {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 16px;
+                                line-height: 20px;
+                                /* identical to box height, or 19px */
+
+                                letter-spacing: 0.05em;
+                                color: #000000;
+                            }
+
+
+                            .text-order {
+                                margin-top: 5px;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 14px;
+                                line-height: 15px;
+                                letter-spacing: 0.09em;
+                                color: #000000;
+                            }
+
+                            .location-reviewer {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 12px;
+                                letter-spacing: 0.09em;
+                                color: #5B5959;
+                                margin-top: 5px;
+                                margin-left: 0.8rem;
+                                &:before {
+                                    background: url('/img/tpl_img/tablet/icon_location_mini.png') no-repeat;
+                                    width: 10px;
+                                    height: 14px;
+                                    top: 0px;
+                                    left: -15px;
+                                }
+
+                            }
+                        }
+                        ///// End Block Info Reviewer
+
+                    }
+
+                    //////// END DESCRIPTION REVIEWER
+
+
+                }
+
+                /////// END BLOCK REVIEWER
+
+
+                //// TEXT REVIEW
+                .text-review {
+                    margin-top: 7px;
+                    p {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 22px;
+                        letter-spacing: 0.05em;
+                        color: #000000;
+                    }
+
+                }
+
+                //// END TEXT REVIEW
+
+            }
+
+            ////// END BOX REVIEW
+
+        }
+
+
+    }
+
+}

@@ -1,0 +1,144 @@
+/******************************* Default css ******************************/
+.block-view-page {
+    position: relative;
+
+    .left-img {
+        float: left;
+        padding: 5px 10px 5px 10px;
+    }
+
+
+    .right-img {
+        float: right;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .wrapper-header-block-view-page {
+
+        .header-block-view-page {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 66px;
+            color: #000000;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                background: url('/img/tpl_img/icon_title.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                margin: auto;
+                right: 0;
+                left: 0;
+                bottom: -44px;
+            }
+        }
+    }
+
+    .container-main-description {
+        padding-top: 90px;
+        padding-bottom: 12px;
+        background: #F3F9FB;
+        position: relative;
+
+
+
+        ///// description page default
+        .description-page {
+            margin-top: 80px;
+            padding-left: 68px;
+            padding-right: 68px;
+
+            ul {
+                padding-left: 0px;
+                list-style: none;
+
+                li {
+
+                }
+            }
+
+            h2 {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                color: #000000;
+                font-size: 25px;
+                line-height: 22px;
+            }
+
+            h3 {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                color: #000000;
+                font-size: 23px;
+            }
+
+            strong {
+                font-weight: bold;
+            }
+
+
+            p {
+                &:first-child {
+
+                }
+
+
+                &:not(:first-child) {
+
+                }
+            }
+
+            * {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+        }
+
+        ///// end description page default
+
+    }
+
+
+    //// html page default
+    .html-page {
+
+
+    }
+
+    //// end html page default
+
+
+}
+
+/******************************* End Default css ******************************/
+
+
+///////////////////// Import style inner pages
+@import 'page_about_us';
+@import 'page_izvlechenie_nasosov';
+@import 'page_obustroistvo_skvazhini';
+@import 'page_engineering_survey';
+@import 'page_well_boring';
+@import 'page_our_work';
+@import 'page_rem_skvazhin';
+@import 'page_contacts';
+@import 'page_reviews';
+//////////////////// end Import style inner pages
+
+
+

@@ -1,0 +1,162 @@
+.main-menu {
+    padding-left: 25px;
+    list-style: none;
+    margin-bottom: 0px;
+
+    .item-main-menu.active {
+
+        .link-item-main-menu {
+            border-radius: 40px;
+            background: #066185;
+        }
+    }
+
+    /************ Dropdown Menu **************/
+    .item-main-menu.dropdown.show {
+
+
+        .link-item-main-menu.dropdown-toggle {
+            background: #066185;
+            padding: 10px 27px 10px 27px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+    }
+
+    .item-main-menu.dropdown {
+
+
+        .link-item-main-menu.dropdown-toggle {
+
+            padding: 10px 27px 10px 27px;
+
+            &:after {
+                display: none;
+            }
+        }
+
+
+        .dropdown-menu {
+            background: #066185;
+            padding-top: 20px;
+            padding-bottom: 24px;
+            border-radius: 0px 20px 20px 20px;
+            width: max-content;
+            border: none;
+            margin-top: 5px;
+
+
+            .mega-menu-column {
+
+                ///// dropdown ul
+                .list-items-column-menu {
+
+                    list-style: none;
+                    padding-left: 18px;
+                    padding-right: 46px;
+
+                    /////// Active Item Menu
+                    .item-main-menu.active {
+                        .link-item-main-menu {
+
+                        }
+                    }
+
+                    /////// End Active Item Menu
+
+                    .item-main-menu.active {
+                        .link-item-main-menu {
+                            color: #9AE3FF;
+                        }
+                    }
+                    .item-main-menu {
+                        position: relative;
+                        display: block;
+
+                        &:not(:first-child) {
+                            margin-left: 0px;
+                            margin-top: 5px;
+                        }
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: #33A7D4;
+                            width: 7px;
+                            height: 7px;
+                            border-radius: 7px;
+                            top: 9px;
+                            left: 2px;
+                        }
+
+
+                        .link-item-main-menu {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 16px;
+                            color: #FFFFFF;
+                            text-decoration: none;
+
+                            &:hover {
+                                text-decoration: none;
+                                color: #9AE3FF;
+                                background: none;
+                            }
+                        }
+
+                    }
+
+                }
+
+                ///// end dropdown ul
+
+
+            }
+
+        }
+
+    }
+
+    /************ End Dropdown Menu **************/
+
+
+    .item-main-menu {
+        display: inline-block;
+
+        &:not(:first-child) {
+            margin-left: 17px;
+        }
+
+        &:nth-child(2) {
+
+        }
+
+        &:nth-child(3) {
+
+        }
+
+        .link-item-main-menu {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 19px;
+            padding: 10px 20px 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: #FFFFFF;
+
+            &:hover {
+                background: #066185;
+                border-radius: 40px;
+                -webkit-transition: .1s ease-in-out;
+                transition: .1s ease-in-out;
+                text-decoration: none;
+            }
+
+        }
+    }
+}

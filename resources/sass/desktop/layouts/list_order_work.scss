@@ -1,0 +1,99 @@
+.block-list-order-work {
+    margin-top: 3.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    ////////////////// BOX ORDER WORK
+    .box-order-work {
+
+
+        &:not(:last-child){
+            .inner-box-order-work {
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/tpl_img/arrow_work.png') no-repeat;
+                    width: 19px;
+                    height: 26px;
+                    top: 2.4rem;
+                    right: -1.16rem;
+                }
+            }
+        }
+
+        .inner-box-order-work {
+            position: relative;
+
+            .num-order-work {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                color: #096E96;
+                width: 49px;
+                height: 49px;
+                border-radius: 49px;
+                background: #F1F7F9;
+                position: absolute;
+                z-index: 2;
+                top: -14px;
+                left: 33px;
+            }
+
+
+
+            &:not(:first-child) {
+                margin-left: -1rem;
+            }
+
+            ////////// BLOCK IMG ORDER WORK
+            .block-img-order-work {
+
+                background: linear-gradient(36.17deg, #096E96 11.07%, #6FC3E3 86.85%);
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                position: relative;
+                margin: 0 auto;
+
+                .img-order-work {
+                    position: absolute;
+                    margin: auto;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                }
+
+
+            }
+
+            ////////// END BLOCK IMG ORDER WORK
+
+
+            //////// TEXT ORDER WORK
+            .text-order-work {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #343434;
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 0.8rem;
+                position: relative;
+
+            }
+
+            //////// END TEXT ORDER WORK
+
+        }
+    }
+
+    ////////////////// END BOX ORDER WORK
+
+
+}

@@ -1,0 +1,7 @@
+@import "desktop/material/material";
+@media (max-width: 1069px) {
+    @import "tablet/material/material_tablet";
+}
+@media (max-width: 576px) {
+    @import "mobile/material/material_mobile";
+}

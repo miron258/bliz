@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6a5a9b71-39df-476b-9282-4a430396df69" name="Jino (project level)">
+        <fileTransfer rootFolder="/var/www/domains" accessType="SFTP" host="81.177.6.175" port="22" sshConfigId="87681a72-7170-48d9-8270-31737101b3e2" sshConfig="root@81.177.6.175:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

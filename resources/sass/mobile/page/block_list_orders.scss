@@ -1,0 +1,61 @@
+////////////////////////////////////// BLOCK LIST ORDERS
+.block-list-orders {
+    margin-top: 3rem;
+    padding-bottom: 5rem;
+    .title-block-list-orders {
+        line-height: 32px;
+    }
+
+    .row-list-orders {
+
+        .wrapper-list-orders {
+
+
+            .list-orders {
+                padding-left: 0rem;
+                margin-top: 2rem;
+                /// Item Order
+                .item-order {
+                    width: 100%;
+                    display: block;
+
+                    &:not(:first-child) {
+                        margin-left: 0px;
+                        margin-top: 1.25rem;
+                    }
+
+                    &:last-child {
+                        &:after {
+
+                        }
+                    }
+
+
+                    &:after {
+                        display: none;
+                    }
+
+                    .item-link-order {
+                        font-size: 17px;
+
+                        br {
+                            display: none;
+                        }
+
+                        &:hover {
+
+                        }
+                    }
+                }
+
+                /// End Item Order
+
+            }
+
+        }
+
+    }
+
+}
+
+////////////////////////////////////// END BLOCK LIST ORDERS

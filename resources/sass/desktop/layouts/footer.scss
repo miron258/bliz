@@ -1,0 +1,258 @@
+.footer {
+    background: #1C1C1C;
+    padding-top: 4.2rem;
+    padding-bottom: 3.5rem;
+
+    /************************************** Footer Top Block ************************************/
+    .footer-top-block {
+
+        // Title Payment Method
+        .title-payment-method {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 17px;
+            line-height: 21px;
+            color: #FFFFFF;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+
+        /////// Block List Payments Methods
+        .block-list-payment-methods {
+            margin-top: 1.6rem;
+            position: relative;
+
+
+            .list-payment-methods {
+                padding-left: 17.9rem;
+                border-bottom: 1px solid #575757;
+                margin-bottom: 0rem;
+                padding-bottom: 2.1rem;
+
+                .item-payment-method.item-payment-method-cash {
+
+
+                    &:before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icons_payment_methods/icon_cash.png') no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        left: -57px;
+                        top: -4px;
+                    }
+                }
+
+                .item-payment-method.item-payment-method-checking-account {
+
+
+                    &:before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icons_payment_methods/icon_transfer.png') no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        left: -42px;
+                        top: -2px;
+
+                    }
+                }
+
+                .item-payment-method.item-payment-method-installments {
+
+
+                    &:before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icons_payment_methods/icon_hourglass.png') no-repeat;
+                        width: 40px;
+                        height: 40px;
+                        left: -42px;
+                        top: -4px;
+                    }
+                }
+
+                .item-payment-method {
+                    position: relative;
+                    display: inline-block;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    //line-height: 18px;
+                    color: #FFFFFF;
+
+
+                    &:not(:first-child) {
+                        margin-left: 8.3rem;
+                    }
+                }
+
+            }
+
+
+        }
+
+        /////// End  Block List Payments Methods
+
+    }
+
+    /************************************** End Footer Top Block ************************************/
+
+
+    /************************************** Footer Bottom Block ************************************/
+    .footer-bottom-block {
+
+        ///////// Block List Information
+        .block-list-information {
+            margin-top: 1.20rem;
+            padding-left: 6rem;
+
+
+            //// List Information
+            .list-information {
+                list-style: none;
+                padding-left: 0px;
+
+                .item-information.item-information-logo {
+                    .link-item.link-item-logo {
+
+                    }
+                }
+
+                .item-information.item-information-phone {
+                    .link-item.link-item-phone {
+                        font-weight: 800;
+                        top: 5px;
+                    }
+
+
+                }
+
+                .item-information.item-information-vk {
+
+                    .link-item.link-item-vk {
+                        left: 7.1rem;
+                        top: 0.1rem;
+                    }
+
+
+                }
+
+
+                .item-information {
+                    display: inline-block;
+
+                    &:first-child {
+
+                    }
+
+                    &:not(:first-child) {
+                        margin-left: 12.5rem;
+                    }
+
+
+                    .link-item {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        position: relative;
+                        font-size: 25px;
+                        line-height: 30px;
+                        letter-spacing: 0.08em;
+                        color: #FFFFFF;
+                        text-decoration: none;
+
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                }
+
+            }
+
+            //// End List Information
+
+
+        }
+
+        ///////// End Block List Information
+
+
+        ////////////// BLOCK FOOTER MENU
+        .block-footer-menu {
+            margin: 0 auto;
+            margin-top: 20px;
+            text-align: center;
+
+            .main-menu {
+                list-style: none;
+                padding-left: 0px;
+
+                .item-main-menu.active {
+                    text-decoration: underline;
+                }
+
+                .item-main-menu {
+                    display: inline-block;
+
+                    .link-item-main-menu {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        letter-spacing: 0.08em;
+
+                        color: #FFFFFF;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+
+
+                    }
+
+                    &:first-child {
+
+                    }
+
+                    &:not(:first-child) {
+                        margin-left: 36px;
+                    }
+                }
+
+            }
+
+        }
+
+        ////////////// END BLOCK FOOTER MENU
+
+
+        ////////////// BLOCK REQUISITES
+        .block-requisites {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #FFFFFF;
+            margin-top: 1.9rem;
+        }
+
+        ////////////// END BLOCK REQUISITES
+
+    }
+
+    /************************************** End Footer Bottom Block ************************************/
+}

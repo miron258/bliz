@@ -1,0 +1,157 @@
+/******************************* Default css Tablet ******************************/
+/*********** Header Inner Page **********/
+//.header.header-inner-page {
+//    background: #fff;
+//    height: 684px;
+//}
+
+/*********** End Header Inner Page **********/
+
+////// Block View Page
+.block-view-page {
+
+
+    .wrapper-header-block-view-page {
+
+        .header-block-view-page {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 2.75rem;
+            line-height: 115%;
+            /* identical to box height, or 51px */
+            text-align: center;
+
+
+            &:after {
+                background: url('/img/tpl_img/icon_title_tablet.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                bottom: -58px;
+            }
+        }
+
+    }
+
+    .container-main-description {
+        //padding-top: 2rem;
+        padding-top: 4.86rem;
+        padding-bottom: 12px;
+
+        .container{
+            padding-left: 55px;
+            padding-right: 55px;
+        }
+
+
+        ///// description page default
+        .description-page {
+            margin-top: 2.5rem;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            ul{
+                padding-left: 0px;
+                list-style: none;
+                li{
+
+                }
+            }
+
+            h2{
+                font-size: 17px;
+            }
+            h3{
+                font-size: 16px;
+            }
+
+
+            p {
+                &:first-child {
+
+                }
+
+
+                &:not(:first-child) {
+
+                }
+            }
+
+            * {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                /* or 19px */
+
+                text-align: justify;
+                letter-spacing: 0.05em;
+                color: #000000;
+
+            }
+
+            .text-middle, .text-bottom {
+                display: none;
+            }
+
+            .link-readmore {
+                position: absolute;
+                display: block;
+                text-decoration: underline;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 158.47%;
+                text-align: justify;
+                letter-spacing: 0.05em;
+                text-decoration: underline;
+                bottom: -22px;
+                color: rgba(0, 113, 141, 0.57);
+
+                &:hover {
+                    text-decoration: none;
+                }
+
+
+            }
+
+
+        }
+
+        ///// end description page default
+
+    }
+
+
+    //// html page default
+    .html-page {
+
+
+    }
+
+    //// end html page default
+
+
+}
+
+/******************************* End Default css Tablet ******************************/
+
+
+///////////////////// Import style inner pages tablet
+@import 'page_about_us';
+
+@import 'page_well_boring';
+@import 'page_engineering_survey';
+@import 'page_izvlechenie_nasosov';
+@import 'page_obustroistvo_skvazhini';
+@import 'page_rem_skvazhin';
+
+@import 'page_our_work';
+@import 'page_contacts';
+@import 'page_reviews';
+//////////////////// end Import style inner pages tablet
+
+
+

@@ -1,0 +1,126 @@
+.block-form-add-review {
+    margin-top: 50px;
+
+    .title-review {
+
+    }
+
+    /***************** FORM ADD REVIEWS *******************/
+    .container-block-form-reviews {
+
+
+        .message-reviews {
+            font-size: 12px;
+            line-height: 15px;
+            top: 6px;
+        }
+
+
+        /****************** AJAX LOADER *******************/
+        .loader-gif {
+
+
+            .ajax-loader {
+
+            }
+        }
+
+        /****************** END AJAX LOADER *******************/
+
+        ///// Form Add Review
+        .form-reviews {
+
+            .wrapper-form-reviews-fields {
+
+                .leftblock-form {
+                    margin-top: 18px;
+                }
+
+                .rightblock-form {
+
+                }
+
+
+                .form-group.form-group-name {
+
+                }
+
+                .form-group.form-group-address {
+
+                }
+
+                .form-group.form-group-phone {
+
+                }
+
+                .form-group.form-group-review {
+                    margin-top: 0px;
+                    padding-left: 14px;
+                    padding-right: 14px;
+                }
+
+                .form-group.has-error {
+                    input.form-control {
+
+                    }
+
+                    textarea.form-control {
+
+                    }
+
+                }
+
+                .form-group {
+                    margin-bottom: 14px;
+                    padding-left: 14px;
+                    padding-right: 14px;
+
+                    .invalid-feedback {
+                        text-align: left;
+                    }
+
+
+                    &:not(:first-child) {
+
+                    }
+
+                    input.form-control {
+                        text-align: left;
+                        width: 100%;
+                    }
+
+                    textarea.form-control {
+                        text-align: left;
+                        width: 100%;
+                    }
+
+                }
+
+            }
+
+
+            .form-group.form-group-btn-review {
+
+
+                .btn-send-review {
+
+
+                    &:disabled {
+
+                    }
+
+
+                }
+
+            }
+
+        }
+
+        ///// End Form Add Review
+
+
+    }
+
+    /***************** END FORM ADD REVIEWS *******************/
+
+}

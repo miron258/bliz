@@ -1,0 +1,120 @@
+.block-price {
+    margin-top: 1.85rem;
+
+    .container-block-price {
+        background: #FFFFFF;
+        border-radius: 40px;
+        padding-top: 3.6rem;
+        padding-bottom: 4.44rem;
+
+        .block-price-title {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 3.38rem;
+            line-height: 66px;
+            color: #000000;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                background: url('/img/tpl_img/icon_title.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                margin: auto;
+                right: 0;
+                left: 0;
+                bottom: -44px;
+            }
+        }
+
+
+        //////////////// BLOCK BOX PRICE
+        .block-box-price {
+            margin-top: 4.4rem;
+
+
+            //////////////// BOX PRICE
+            .box-price.box-price-left {
+                margin-left: 5.6rem;
+
+                .text-box-price {
+                    left: 3px;
+                }
+            }
+
+            .box-price.box-price-right {
+
+            }
+
+
+            .box-price {
+
+
+                .title-box-price {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #000000;
+
+                }
+
+                .text-box-price {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 25px;
+                    text-align: center;
+                    letter-spacing: 0.05em;
+                    color: #343434;
+                    margin-top: 1.5rem;
+                    height: 135px;
+                    position: relative;
+                }
+
+                .block-box-price.block-box-price-left {
+                    left: 4px;
+                }
+
+                .block-box-price.block-box-price-right {
+
+                }
+
+
+                .block-box-price {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #000000;
+                    margin: 0 auto;
+                    margin-top: 0.5rem;
+                    position: relative;
+                }
+
+
+            }
+
+            //////////////// END BOX PRICE
+
+
+        }
+
+        //////////////// END BLOCK BOX PRICE
+
+
+    }
+
+
+}

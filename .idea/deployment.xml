@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Jino" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="Jino">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/burenie57.com" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Jino (project level)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/burenie57.com" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

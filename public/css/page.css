@@ -1,0 +1,3984 @@
+@charset "UTF-8";
+
+/******************************* Default css ******************************/
+
+.block-view-page {
+  position: relative;
+}
+
+.block-view-page .left-img {
+  float: left;
+  padding: 5px 10px 5px 10px;
+}
+
+.block-view-page .right-img {
+  float: right;
+  padding: 5px 10px 5px 10px;
+}
+
+.block-view-page .header-block-view-page {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-view-page .container-main-description {
+  padding-top: 126px;
+  padding-bottom: 12px;
+  background: rgba(232, 235, 227, 0.8);
+}
+
+.block-view-page .container-main-description .description-page {
+  margin-top: 16px;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+.block-view-page .container-main-description .description-page ul {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.block-view-page .container-main-description .description-page h2 {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 25px;
+  line-height: 22px;
+}
+
+.block-view-page .container-main-description .description-page h3 {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 23px;
+}
+
+.block-view-page .container-main-description .description-page strong {
+  font-weight: bold;
+}
+
+.block-view-page .container-main-description .description-page * {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+/******************************* End Default css ******************************/
+
+/************************************* СТРАНИЦА О НАС ****************************************/
+
+.block-view-page.block-view-page-about-us {
+  padding-bottom: 25px;
+}
+
+.block-view-page.block-view-page-about-us .description-page.description-page-about-us p:not(:first-child) {
+  margin-top: 26px;
+}
+
+.block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits {
+  padding: 0px;
+  margin-top: 48px;
+  margin-left: -65px;
+  margin-right: -65px;
+}
+
+.block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits .title-benefits {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #1C1C1C;
+  margin-top: 13px;
+  width: 181px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us {
+  background: #fff;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates {
+  padding-top: 114px;
+  background: #fff;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .title-block-certificates {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .subtitle-block-certificates {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 17px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates {
+  position: relative;
+  margin-top: 63px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows {
+  position: absolute;
+  top: 52%;
+  width: 100%;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-disabled {
+  opacity: 0.5;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow {
+  z-index: 3;
+  border: none;
+  outline: none;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-next {
+  background: url("/img/tpl_img/nav_arrow_next.png") no-repeat;
+  width: 32px;
+  height: 60px;
+  right: 20px;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-prev {
+  background: url("/img/tpl_img/nav_arrow_prev.png") no-repeat;
+  width: 32px;
+  height: 60px;
+  left: 20px;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates {
+  position: relative;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:before {
+  position: absolute;
+  left: 0px;
+  top: 63px;
+  z-index: 2;
+  content: "";
+  display: block;
+  width: 172px;
+  height: 503px;
+  background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:after {
+  position: absolute;
+  right: -3px;
+  top: 63px;
+  z-index: 2;
+  content: "";
+  display: block;
+  width: 172px;
+  height: 503px;
+  background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(-180deg);
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .name-certificate {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  height: 54px;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate {
+  outline: none;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate:hover {
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate .img-certificate {
+  height: 503px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners {
+  margin-top: 206px;
+  background: #fff;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .title-block-partners {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners {
+  margin-top: 40px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners {
+  list-style: none;
+  padding-left: 97px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners .item-banner.item-banner2 {
+  position: relative;
+  top: 18px;
+  left: 9px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners .item-banner {
+  display: inline-block;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents {
+  margin-top: 116px;
+  padding-top: 48px;
+  padding-bottom: 97px;
+  background: rgba(232, 235, 227, 0.8);
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .title-block-documents {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .subtitle-block-documents {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  letter-spacing: 0.05em;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents {
+  margin-top: 72px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document.box-document1 .link-document {
+  float: right;
+  margin-right: 14px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document.box-document2 .link-document {
+  margin-left: 14px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document .link-document {
+  position: relative;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.07em;
+  width: 474px;
+  height: 62px;
+  line-height: 62px;
+  background: url("/img/tpl_img/icon_document.png") #3EA3BC 4% 50% no-repeat;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document .link-document:hover {
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document .link-document .text-document {
+  display: block;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  color: #FFFFFF;
+  position: relative;
+  left: 20px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique {
+  margin-top: 83px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .title-block-our-technique {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .subtitle-block-our-technique {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  margin: 0 auto;
+  margin-top: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique {
+  margin-top: 80px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top {
+  margin-bottom: 5px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top .item-technique.item-technique2 {
+  padding: 0px;
+  position: relative;
+  right: 7px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom .item-technique.item-technique2 {
+  padding: 0px;
+  position: relative;
+  right: 7px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom .item-technique.item-technique3 {
+  padding-left: 7px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom .item-technique.item-technique3 .item-technique-img {
+  float: right;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique .item-technique {
+  display: inline-block;
+}
+
+/************************************* КОНЕЦ СТРАНИЦА О НАС ****************************************/
+
+.block-view-page.block-view-page-obustroistvo-skvazhini {
+  padding-bottom: 79px;
+}
+
+.block-view-page.block-view-page-obustroistvo-skvazhini .html-page.html-page-obustroistvo-skvazhini .block-form {
+  margin-top: 84px;
+}
+
+/************************************* СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+.block-view-page.block-view-page-well-boring {
+  padding-bottom: 55px;
+}
+
+.block-view-page.block-view-page-well-boring .container-main-description {
+  position: relative;
+}
+
+.block-view-page.block-view-page-well-boring .container-main-description:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(232, 235, 227, 0.8);
+  width: 100%;
+  height: 269px;
+  bottom: -269px;
+}
+
+.block-view-page.block-view-page-well-boring .description-page.description-page-well-boring p:not(:first-child) {
+  margin-top: 26px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work {
+  margin-top: 12px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .box-video {
+  position: relative;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .box-video .img-video {
+  position: relative;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .box-video .img-video:after {
+  position: absolute;
+  content: "";
+  display: block;
+  background: url("/img/tpl_img/bt_pvideo_desktop.png") no-repeat;
+  width: 109px;
+  height: 109px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .box-video .img-video:after:hover {
+  cursor: pointer;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 56px;
+  position: relative;
+  right: 29px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work:not(:first-child) {
+  margin-top: 32px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work .name-item {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work .value-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: relative;
+  top: 5px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .block-list-services-img {
+  margin-top: 10px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .block-list-services-img .list-services-img {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .block-list-services-img .list-services-img .item-services.item-services2 {
+  margin-left: 5px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .block-list-services-img .list-services-img .item-services.item-services3 {
+  margin-left: 6px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .block-list-services-img .list-services-img .item-services {
+  display: inline-block;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings {
+  margin-top: 116px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .title-block-drawings {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .subtitle-block-drawings {
+  margin: 0 auto;
+  margin-top: 14px;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .list-drawings {
+  margin-top: 40px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .list-drawings .box-drawing.box-drawing-right .img-drawing {
+  float: right;
+  position: relative;
+  bottom: 38px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form {
+  margin-top: 58px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form {
+  background: rgba(232, 235, 227, 0.8);
+  padding-top: 38px;
+  padding-bottom: 35px;
+  position: relative;
+  /****************** AJAX LOADER *******************/
+  /****************** END AJAX LOADER *******************/
+  /******************* STYLE FORM ****************/
+  /******************* END STYLE FORM ****************/
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .message-form-order {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #C16015;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .loader-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .loader-gif .ajax-loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .title-block-form {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  text-align: center;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .subtitle-block-form {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  color: #000000;
+  margin-top: 11px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .title-form-send {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  margin-top: 28px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order {
+  margin-top: 23px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback {
+  outline: none;
+  border: none;
+  width: 213px;
+  height: 61.53px;
+  line-height: 61.53px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  background: #3EA3BC;
+  border-radius: 3px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback:disabled {
+  opacity: 0.65;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-address {
+  padding-left: 78px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-phone {
+  padding-left: 33px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-name {
+  position: relative;
+  right: 12px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.has-error input.form-control {
+  border-bottom: 1px solid red;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.has-error textarea.form-control {
+  border: 1px solid red;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group {
+  position: relative;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group .invalid-feedback {
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group .form-control {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  border-radius: 0px;
+  text-align: left;
+  letter-spacing: 0.09em;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #1C1C1C;
+  border-bottom: 1px solid #1C1C1C;
+  width: 293px;
+  background: none;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form {
+  margin-top: 55px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders {
+  margin-top: 64px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .title-block-list-orders {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 59px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order:not(:first-child) {
+  margin-left: 2px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order:last-child:after {
+  display: none;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order:after {
+  content: "";
+  display: block;
+  height: 41px;
+  background: #5B5959;
+  width: 1px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order .item-link-order {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #3EA3BC;
+}
+
+.block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order .item-link-order:hover {
+  text-decoration: underline;
+}
+
+/************************************* КОНЕЦ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+/************************************* СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+.block-view-page.block-view-page-our-work {
+  padding-bottom: 91px;
+}
+
+.block-view-page.block-view-page-our-work .container-main-description {
+  position: relative;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work {
+  background: rgba(232, 235, 227, 0.8);
+  margin-top: 0px;
+  padding-bottom: 73px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work {
+  margin-top: 40px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1 .num-order-work {
+  left: 80px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1 .block-img-order-work {
+  left: 10px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1 .text-order-work {
+  left: 18px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1:after {
+  right: 6px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 {
+  left: 25px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 .block-img-order-work {
+  right: 10px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2:after {
+  right: 20px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 .num-order-work {
+  left: 45px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 .block-img-order-work {
+  right: 10px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3:after {
+  right: 10px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 .num-order-work {
+  left: 21px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 .block-img-order-work {
+  left: 8px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4:after {
+  display: none;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work {
+  position: relative;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 91px;
+  line-height: 116px;
+  text-align: center;
+  color: #C16015;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work:after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url("/img/tpl_img/arrow_work.png") no-repeat;
+  width: 40px;
+  height: 66px;
+  top: 28px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work {
+  position: relative;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work1 {
+  background: url("/img/tpl_img/icons_work/icon1.png") no-repeat;
+  width: 115px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work2 {
+  background: url("/img/tpl_img/icons_work/icon2.png") no-repeat;
+  width: 113px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work3 {
+  background: url("/img/tpl_img/icons_work/icon3.png") no-repeat;
+  width: 115px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work4 {
+  background: url("/img/tpl_img/icons_work/icon4.png") no-repeat;
+  width: 115px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work {
+  position: relative;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .text-order-work {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 10px;
+  right: 23px;
+  position: relative;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work {
+  margin-top: 0px;
+  padding-top: 46px;
+  position: relative;
+  left: -25px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work {
+  margin-top: 142px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .title-gallery-page-our-work {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery {
+  margin-top: 53px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery:not(:first-child) {
+  margin-top: 40px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 {
+  position: absolute;
+  width: 100%;
+  bottom: 49px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots .slick-active button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots .slick-active button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots .slick-active button {
+  background: #FFFFFF;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots .slick-active button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots .slick-active button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots .slick-active button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots li,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots li {
+  display: inline-block;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li:not(:first-child),
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots li:not(:first-child),
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots li:not(:first-child) {
+  margin-left: 9px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots li button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  background: #5B5959;
+  border-radius: 19px;
+  box-shadow: 0 0 0 1pt #ffffff;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots3 .slick-dots li button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-left .nav-dots5 .slick-dots li button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .description-gallery {
+  margin-top: 15px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 {
+  position: absolute;
+  width: 100%;
+  bottom: 49px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots .slick-active button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots .slick-active button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots .slick-active button {
+  background: #FFFFFF;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots .slick-active button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots .slick-active button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots .slick-active button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots li,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots li {
+  display: inline-block;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li:not(:first-child),
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots li:not(:first-child),
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots li:not(:first-child) {
+  margin-left: 9px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots li button,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots li button {
+  width: 20px;
+  height: 20px;
+  background: #5B5959;
+  border-radius: 19px;
+  box-shadow: 0 0 0 1pt #ffffff;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots4 .slick-dots li button:before,
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery.box-gallery-right .nav-dots6 .slick-dots li button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery {
+  position: relative;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .wrapper-img {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .slick-carousel-work-gallery {
+  margin-bottom: 0px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .slick-carousel-work-gallery .img-gallery {
+  height: 418px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .description-gallery {
+  padding-left: 0px;
+  margin-top: 15px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .description-gallery .list-description-gallery {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery {
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery .check-gallery {
+  font-size: 13px;
+  position: relative;
+  bottom: 3px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .row-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery .check-gallery-rain {
+  font-size: 13px;
+  position: relative;
+  bottom: 3px;
+  left: 3px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options {
+  margin-top: 123px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .title-block-casing-options {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  margin: 0 auto;
+  text-align: center;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options {
+  margin-left: 14px;
+  margin-top: 19px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .name-casing-option {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: relative;
+  margin-top: 51px;
+  left: 5px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form {
+  margin-top: 126px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements {
+  margin-top: 115px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .title-block-requirements {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .subtitle-block-requirements {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 47px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements {
+  padding-left: 0px;
+  list-style: none;
+  padding-left: 165px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  position: relative;
+  text-align: left;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -66px;
+  top: 2px;
+  background: url("/img/tpl_img/icon_check.png") no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement:not(:first-child) {
+  margin-top: 29px;
+}
+
+/************************************* КОНЕЦ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+/************************************* СТРАНИЦА КОНТАКТЫ ****************************************/
+
+.block-view-page.block-view-page-contacts {
+  padding-bottom: 79px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description {
+  position: relative;
+  padding-top: 105px;
+  padding-bottom: 136px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts {
+  margin-top: 25px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .top-paragraph {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .title-contacts {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  margin-top: 75px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone {
+  display: block;
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 auto;
+  margin-top: 66px;
+  position: relative;
+  left: 30px;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone:hover {
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone:before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: url("/img/tpl_img/icon_circle_phone.png") no-repeat;
+  width: 50px;
+  height: 50px;
+  left: -67px;
+  top: -12px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0 auto;
+  margin-top: 57px;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication .item-communication {
+  display: inline-block;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication .item-communication:not(:first-child) {
+  margin-left: 44px;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication .item-communication .item-link-communication {
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication .item-communication .item-link-communication:hover {
+  text-decoration: none;
+}
+
+.block-view-page.block-view-page-contacts .html-page.html-page-contacts .block-form {
+  margin-top: 84px;
+}
+
+/************************************* КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/
+
+/************************************* СТРАНИЦА ОТЗЫВЫ ****************************************/
+
+.block-view-page.block-view-page-reviews {
+  padding-bottom: 72px;
+}
+
+.block-view-page.block-view-page-reviews .container-main-description {
+  position: relative;
+  padding-top: 118px;
+  padding-bottom: 0px;
+}
+
+.block-view-page.block-view-page-reviews .container-main-description:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: rgba(232, 235, 227, 0.8);
+  height: 408px;
+  bottom: -408px;
+  width: 100%;
+}
+
+.block-view-page.block-view-page-reviews .container-main-description .header-block-view-page {
+  position: relative;
+  right: 18px;
+}
+
+.block-view-page.block-view-page-reviews .container-main-description .description-page.description-page-reviews {
+  margin-top: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews {
+  background: rgba(232, 235, 227, 0.8);
+  padding-top: 38px;
+  padding-bottom: 44px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .title-block-reviews {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  position: relative;
+  right: 20px;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews {
+  margin-top: 40px;
+  position: relative;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows {
+  position: absolute;
+  top: 57.3%;
+  width: 100%;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow {
+  border: none;
+  outline: none;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow.slick-carousel-control-next {
+  background: url("/img/tpl_img/nav_arrow_next.png") no-repeat;
+  width: 32px;
+  height: 60px;
+  right: 14px;
+  top: -20px;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow.slick-carousel-control-prev {
+  background: url("/img/tpl_img/nav_arrow_prev.png") no-repeat;
+  width: 32px;
+  height: 60px;
+  left: 14px;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots {
+  position: absolute;
+  width: 100%;
+  bottom: -11px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li.slick-active button {
+  background: #C16015;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li.slick-active button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li button {
+  display: block;
+  padding: 0px;
+  background: #5B5959;
+  width: 68px;
+  height: 5px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li button:not(:first-child) {
+  margin-left: 10px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li button:before {
+  display: none;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews {
+  position: relative;
+  margin-right: 50px;
+  margin-left: 46px;
+  /* the slides */
+  /**************** BOX REVIEW ***************/
+  /**************** END BOX REVIEW ***************/
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .slick-list {
+  margin: 0 13px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .slick-list .slick-slide {
+  margin: 0 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review {
+  position: relative;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .img-reviewer {
+  width: 84px;
+  height: 84px;
+  border-radius: 84px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .img-reviewer img {
+  width: 84px;
+  height: 84px;
+  border-radius: 84px;
+  overflow: hidden;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer {
+  position: relative;
+  padding-left: 100px;
+  width: 480px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .name-reviewer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 158.47%;
+  /* identical to box height, or 29px */
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .text-order {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 10px;
+  letter-spacing: 0.09em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .text-order p {
+  margin: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .location-reviewer {
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 10px;
+  margin-left: 12px;
+  letter-spacing: 0.09em;
+  color: #5B5959;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .location-reviewer:before {
+  display: block;
+  content: "";
+  position: absolute;
+  background: url("/img/tpl_img/icon_location.png") no-repeat;
+  width: 11px;
+  height: 11px;
+  left: -15px;
+  top: 2px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review {
+  margin-top: 10px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review p:first-child {
+  margin-bottom: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review p:not(:first-child) {
+  margin-bottom: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .wrapper-bt-add-reviews {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .wrapper-bt-add-reviews .bt-add-reviews {
+  outline: none;
+  border: none;
+  width: 304px;
+  height: 62px;
+  margin: 0 auto;
+  background: #3EA3BC;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 62px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .wrapper-bt-add-reviews .bt-add-reviews:hover {
+  cursor: pointer;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews {
+  background: none;
+  padding-top: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews {
+  padding-top: 0px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review {
+  margin-top: 108px;
+  /***************** FORM ADD REVIEWS *******************/
+  /***************** END FORM ADD REVIEWS *******************/
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .title-review {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews {
+  position: relative;
+  /****************** AJAX LOADER *******************/
+  /****************** END AJAX LOADER *******************/
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .message-reviews {
+  margin: 0 auto;
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #C16015;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .loader-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .loader-gif .ajax-loader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .leftblock-form {
+  position: relative;
+  left: 82px;
+  margin-top: 57px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .rightblock-form {
+  margin-top: 13px;
+  position: relative;
+  right: 30px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.form-group-review {
+  margin-top: 59px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.has-error input.form-control {
+  border-bottom: 1px solid red;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.has-error textarea.form-control {
+  border: 1px solid red;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group {
+  position: relative;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group .invalid-feedback {
+  position: absolute;
+  font-family: Montserrat;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group:not(:first-child) {
+  margin-top: 37px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group input.form-control {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border-radius: 0px;
+  text-align: left;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #000000;
+  width: 390px;
+  background: none;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group textarea.form-control {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 158.47%;
+  text-align: left;
+  border-radius: 0px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border: 1px solid #000000;
+  width: 488px;
+  height: 177px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .form-group.form-group-btn-review {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 59px;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .form-group.form-group-btn-review .btn-send-review {
+  outline: none;
+  border: none;
+  width: 304px;
+  height: 62px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 62px;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  background: #3EA3BC;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .form-group.form-group-btn-review .btn-send-review:disabled {
+  opacity: 0.65;
+}
+
+/************************************* КОНЕЦ СТРАНИЦА ОТЗЫВЫ ****************************************/
+
+@media (max-width: 1069px) {
+  /******************************* Default css Tablet ******************************/
+
+  /*********** Header Inner Page **********/
+
+  .header.header-inner-page {
+    background: #fff;
+    height: 684px;
+  }
+
+  /*********** End Header Inner Page **********/
+
+  .block-view-page .header-block-view-page {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    padding-top: 22px;
+  }
+
+  .block-view-page .container-main-description {
+    padding-top: 23px;
+    padding-bottom: 12px;
+    background: none;
+  }
+
+  .block-view-page .container-main-description .description-page {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-view-page .container-main-description .description-page ul {
+    padding-left: 0px;
+    list-style: none;
+  }
+
+  .block-view-page .container-main-description .description-page h2 {
+    font-size: 17px;
+  }
+
+  .block-view-page .container-main-description .description-page h3 {
+    font-size: 16px;
+  }
+
+  .block-view-page .container-main-description .description-page * {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 158.47%;
+    /* or 19px */
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page .container-main-description .description-page .text-middle,
+  .block-view-page .container-main-description .description-page .text-bottom {
+    display: none;
+  }
+
+  .block-view-page .container-main-description .description-page .link-readmore {
+    position: absolute;
+    display: block;
+    text-decoration: underline;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 158.47%;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    text-decoration: underline;
+    bottom: -22px;
+    color: rgba(0, 113, 141, 0.57);
+  }
+
+  .block-view-page .container-main-description .description-page .link-readmore:hover {
+    text-decoration: none;
+  }
+
+  /******************************* End Default css Tablet ******************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА О НАС ****************************************/
+
+  .block-view-page.block-view-page-about-us {
+    padding-bottom: 0px;
+    padding-top: 16px;
+  }
+
+  .block-view-page.block-view-page-about-us .container-main-description {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .block-view-page.block-view-page-about-us .container-main-description .container {
+    background: rgba(232, 235, 227, 0.8);
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us {
+    padding-bottom: 50px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits {
+    margin-top: 35px;
+    padding-left: 49px;
+    padding-right: 53px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits {
+    padding: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits .title-benefits {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #1C1C1C;
+    margin-top: 5px;
+    width: 86px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates {
+    margin-top: 54px;
+    padding-top: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .title-block-certificates {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .subtitle-block-certificates {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates {
+    margin-top: 24px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows {
+    position: absolute;
+    top: 51%;
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow {
+    z-index: 3;
+    border: none;
+    outline: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/tablet/arrow_next.png") no-repeat;
+    width: 24px;
+    height: 42px;
+    right: -5px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/tablet/arrow_prev.png") no-repeat;
+    width: 23px;
+    height: 42px;
+    left: -4px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates {
+    position: relative;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .slick-list {
+    margin: 0 -7px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .slick-list .slick-slide {
+    margin: 0 7px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:before {
+    top: 33px;
+    left: -15px;
+    width: 116.19px;
+    height: 100%;
+    background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:after {
+    top: 33px;
+    right: -15px;
+    width: 116.19px;
+    height: 100%;
+    background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .name-certificate {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 158.47%;
+    /* or 19px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate {
+    margin-top: 0px;
+    bottom: 14px;
+    position: relative;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate .img-certificate {
+    height: auto;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners {
+    margin-top: 68px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .title-block-partners {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners {
+    margin-top: 10px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners {
+    padding-left: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners .item-banner.item-banner1 {
+    position: relative;
+    top: 12px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners .list-banners-partners .list-banners .item-banner.item-banner2 {
+    left: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents {
+    margin-top: 80px;
+    padding-top: 27px;
+    padding-bottom: 43px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .title-block-documents {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .subtitle-block-documents {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 158.47%;
+    /* or 19px */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents {
+    margin-top: 30px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document.box-document1 .link-document {
+    float: none;
+    margin-right: 0px;
+    margin: 0 auto;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document.box-document2 .link-document {
+    margin-left: 0px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document .link-document {
+    width: 399.93px;
+    height: 62px;
+    float: none;
+    text-align: center;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents .list-documents .box-document .link-document .text-document {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 62px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique {
+    margin-top: 45px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .title-block-our-technique {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .subtitle-block-our-technique {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 158.47%;
+    /* or 19px */
+    margin-top: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique {
+    margin-top: 46px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top {
+    max-width: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top .item-technique .item-technique-img {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom {
+    max-width: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom .item-technique .item-technique-img {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  /************************************* КОНЕЦ ТАБЛЕТ СТРАНИЦА О НАС ****************************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+  .block-view-page.block-view-page-well-boring {
+    padding-top: 16px;
+  }
+
+  .block-view-page.block-view-page-well-boring .container-main-description {
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-well-boring .container-main-description .container {
+    background: #E8EBE3;
+  }
+
+  .block-view-page.block-view-page-well-boring .container-main-description:after {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-well-boring .description-page.description-page-well-boring {
+    padding-bottom: 48px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work {
+    right: 0px;
+    bottom: 24px;
+    margin-top: 25px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work {
+    display: inline-block;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work:not(:first-child) {
+    margin-top: 0px;
+    margin-left: 6px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work .name-item {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 9px;
+    color: #000000;
+    float: left;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work .value-item {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 9px;
+    color: #000000;
+    float: left;
+    top: 0px;
+    margin-left: 3px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings {
+    margin-top: 17px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .title-block-drawings {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .subtitle-block-drawings {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 12px;
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .subtitle-block-drawings br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .list-drawings {
+    margin-top: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form {
+    margin-top: 30px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form {
+    padding-top: 20px;
+    /******************* STYLE FORM ****************/
+    /******************* END STYLE FORM ****************/
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .message-form-order {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .title-block-form {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .subtitle-block-form {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 14px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .title-form-send {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 158.47%;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order {
+    margin-top: 15px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send {
+    margin-top: 8px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback {
+    width: 188.07px;
+    height: 30.26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 158.47%;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-address {
+    padding-left: 0px;
+    margin-bottom: 12px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-phone {
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-name {
+    padding-left: 0px;
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group .form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    color: #1C1C1C;
+    margin: 0 auto;
+    text-align: left;
+    width: 244.53px;
+    position: relative;
+    right: 7px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form {
+    margin-top: 60px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders {
+    margin-top: 62px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .title-block-list-orders {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders {
+    margin-top: 31px;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order .item-link-order {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 11px;
+    letter-spacing: 0.05em;
+    word-break: break-word;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order .item-link-order br {
+    display: none;
+  }
+
+  /************************************* КОНЕЦ ТАБЛЕТ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+  .block-view-page.block-view-page-our-work {
+    padding-bottom: 31px;
+  }
+
+  .block-view-page.block-view-page-our-work .container-main-description {
+    position: relative;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 39px;
+    padding-bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .container-main-description .container {
+    background: #E8EBE3;
+    position: relative;
+  }
+
+  .block-view-page.block-view-page-our-work .container-main-description .container:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #E8EBE3;
+    bottom: -185px;
+    height: 185px;
+    width: 100%;
+    left: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .description-page.description-page-our-work * {
+    line-height: 19px;
+  }
+
+  .block-view-page.block-view-page-our-work .description-page.description-page-our-work p:last-child {
+    margin-bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work {
+    background: none;
+    padding-top: 30px;
+    padding-left: 64px;
+    padding-right: 13px;
+    padding-bottom: 50px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work {
+    margin-top: 28px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1 {
+    left: 62px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 {
+    left: 103px;
+    bottom: -5px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 {
+    padding-left: 84px;
+    top: -9px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 {
+    padding-left: 86px;
+    top: 13px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work {
+    position: relative;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work:after {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work {
+    line-height: 0px;
+    font-size: 47px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work.num-order-work1 {
+    left: 0px;
+    top: 20px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work.num-order-work2 {
+    left: -44px;
+    top: 35px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work.num-order-work3 {
+    left: 22px;
+    top: 30px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .num-order-work.num-order-work4 {
+    left: 22px;
+    top: 27px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work {
+    float: left;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work1 {
+    background: url("/img/tpl_img/tablet/icons_work/icon1.png") no-repeat;
+    width: 31px;
+    height: 43px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work2 {
+    background: url("/img/tpl_img/tablet/icons_work/icon2.png") no-repeat;
+    width: 31px;
+    height: 32px;
+    top: 20px;
+    left: -20px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work3 {
+    background: url("/img/tpl_img/tablet/icons_work/icon3.png") no-repeat;
+    width: 31px;
+    height: 47px;
+    right: 22px;
+    top: 6px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work.img-order-work4 {
+    background: url("/img/tpl_img/tablet/icons_work/icon4.png") no-repeat;
+    width: 31px;
+    height: 32px;
+    left: -38px;
+    top: 11px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .block-img-order-work .img-order-work {
+    float: left;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work .text-order-work {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: left;
+    float: left;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work {
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work {
+    margin-top: 33px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .title-gallery-page-our-work {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 31px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left {
+    position: relative;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows {
+    position: absolute;
+    top: 43%;
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-disabled {
+    opacity: 0.5;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow {
+    z-index: 3;
+    border: none;
+    outline: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/tablet/arrow_next_gallery.png") no-repeat;
+    width: 20px;
+    height: 36px;
+    right: -8px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/tablet/arrow_prev_gallery.png") no-repeat;
+    width: 20px;
+    height: 36px;
+    left: -40px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-dots {
+    bottom: 27px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li button {
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-dots .slick-dots li button:before {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-right .nav-dots2 {
+    bottom: 27px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li {
+    display: inline-block;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li button {
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .slick-carousel-work-gallery .img-gallery {
+    height: 253px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery {
+    padding-top: 27px;
+    padding-left: 57px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery .check-gallery {
+    font-size: 11px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery:not(:first-child) {
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options {
+    margin-top: 61px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .title-block-casing-options {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow.slick-disabled {
+    opacity: 0.5;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow {
+    z-index: 3;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 40%;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/mobile/arrow_next_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    right: -30px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/mobile/arrow_prev_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    left: -30px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .img-casing-option {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .name-casing-option {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    margin-top: 10px;
+    left: 0px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form {
+    margin-top: 30px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form {
+    padding-top: 20px;
+    /******************* STYLE FORM ****************/
+    /******************* END STYLE FORM ****************/
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .message-form-order {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .title-block-form {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .subtitle-block-form {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-top: 14px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .title-form-send {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 158.47%;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order {
+    margin-top: 15px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-btn-send {
+    margin-top: 8px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback {
+    width: 188.07px;
+    height: 30.26px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 158.47%;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-address {
+    padding-left: 0px;
+    margin-bottom: 12px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-phone {
+    padding-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-name {
+    padding-left: 0px;
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group .form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    color: #1C1C1C;
+    margin: 0 auto;
+    text-align: left;
+    width: 244.53px;
+    position: relative;
+    right: 7px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form {
+    margin--top: 58px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements {
+    margin-top: 35px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .title-block-requirements {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .title-block-requirements br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .subtitle-block-requirements {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .subtitle-block-requirements br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements {
+    margin-top: 46px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements {
+    padding-left: 119px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement:before {
+    background: url("/img/tpl_img/tablet/check_tablet.png");
+    width: 16px;
+    height: 16px;
+    left: -30px;
+    top: -2px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement:not(:first-child) {
+    margin-top: 32px;
+  }
+
+  /************************************* КОНЕЦ ТАБЛЕТ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА КОНТАКТЫ ****************************************/
+
+  .block-view-page.block-view-page-contacts {
+    padding-bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description {
+    padding-top: 32px;
+    padding-bottom: 51px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .top-paragraph {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 28px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .title-contacts {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 43px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone {
+    margin-top: 27px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone:before {
+    background: url("/img/tpl_img/icon_circle_phone.png") no-repeat;
+    width: 50px;
+    height: 50px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication {
+    margin-top: 22px;
+  }
+
+  .block-view-page.block-view-page-contacts .html-page.html-page-contacts .block-form {
+    margin-top: 0px;
+  }
+
+  /************************************* ТАБЛЕТ КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА ОТЗЫВЫ ****************************************/
+
+  .block-view-page.block-view-page-reviews .container-main-description {
+    padding-top: 31px;
+  }
+
+  .block-view-page.block-view-page-reviews .container-main-description:after {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-reviews .container-main-description .header-block-view-page {
+    z-index: 1;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews {
+    padding-left: 55px;
+    padding-right: 55px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container {
+    position: relative;
+    background: rgba(232, 235, 227, 0.8);
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: rgba(232, 235, 227, 0.8);
+    top: -38px;
+    height: 38px;
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews {
+    padding-top: 15px;
+    padding-bottom: 24px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .title-block-reviews {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews {
+    margin-top: 22px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots {
+    bottom: -18px;
+    left: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots li button {
+    width: 43.41px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .img-reviewer {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer {
+    padding-left: 0px;
+    width: 244px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .name-reviewer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 158.47%;
+    /* identical to box height, or 19px */
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .text-order {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.09em;
+    margin-top: 0px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .location-reviewer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    color: #5B5959;
+    margin-top: 2px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer .description-reviewer .location-reviewer:before {
+    background: url("/img/tpl_img/tablet/icon_location.png") no-repeat;
+    width: 12px;
+    height: 12px;
+    top: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review {
+    margin-top: 7px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .text-review p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews {
+    margin-top: 5px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review {
+    margin-top: 29px;
+    /***************** FORM ADD REVIEWS *******************/
+    /***************** END FORM ADD REVIEWS *******************/
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .title-review {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews {
+    /****************** AJAX LOADER *******************/
+    /****************** END AJAX LOADER *******************/
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .message-reviews {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .leftblock-form {
+    left: 0px;
+    margin-top: 14px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .rightblock-form {
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.form-group-phone {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.form-group-review {
+    margin-top: 13px;
+    margin-bottom: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.has-error input.form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    color: #1C1C1C;
+    width: 244px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.has-error textarea.form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    color: #1C1C1C;
+    text-align: left;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group {
+    margin-bottom: 12px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group:not(:first-child) {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group input.form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    margin: 0 auto;
+    text-align: center;
+    color: #1C1C1C;
+    width: 244px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group textarea.form-control {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.09em;
+    width: 100%;
+    height: 172px;
+    margin: 0 auto;
+    text-align: left;
+    color: #1C1C1C;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .form-group.form-group-btn-review {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .form-group.form-group-btn-review .btn-send-review {
+    width: 140px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+  }
+
+  /************************************* ТАБЛЕТ КОНЕЦ СТРАНИЦА ОТЗЫВЫ ****************************************/
+}
+
+@media (max-width: 576px) {
+  /******************************* Default css Mobile ******************************/
+
+  /*********** Header Inner Page **********/
+
+  /*********** End Header Inner Page **********/
+
+  .block-view-page {
+    padding-top: 0px;
+  }
+
+  .block-view-page .header-block-view-page {
+    padding-top: 13px;
+  }
+
+  .block-view-page .container-main-description {
+    padding-top: 11px;
+  }
+
+  .block-view-page .container-main-description .description-page ul {
+    padding-left: 0px;
+  }
+
+  .block-view-page .container-main-description .description-page * {
+    line-height: 19px;
+  }
+
+  /******************************* End Default css mobile ******************************/
+
+  /************************************* МОБАЙЛ СТРАНИЦА О НАС ****************************************/
+
+  .block-view-page.block-view-page-about-us {
+    padding-bottom: 70px;
+  }
+
+  .block-view-page.block-view-page-about-us .container-main-description {
+    padding-top: 5px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us {
+    margin-top: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us * {
+    line-height: 19px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us p:not(:first-child) {
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 33px;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits .icon-benefits {
+    width: 100%;
+    height: auto;
+  }
+
+  .block-view-page.block-view-page-about-us .description-page.description-page-about-us .list-benefits .box-benefits .title-benefits {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #1C1C1C;
+    word-break: break-word;
+    width: auto;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .subtitle-block-certificates {
+    margin-top: 5px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .subtitle-block-certificates br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates {
+    margin-top: 14px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows {
+    top: 44%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/mobile/arrow_next_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    right: -10px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .nav-arrows .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/mobile/arrow_prev_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    left: -10px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .slick-list {
+    margin: 0 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .slick-list .slick-slide {
+    margin: 0 0px;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:before {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates:after {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate {
+    position: relative;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .name-certificate {
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-certificates .slider-certificates .slick-carousel-certificates .box-certificate .link-certificate {
+    padding-left: 33px;
+    padding-right: 33px;
+    bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-partners {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-documents {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique {
+    margin-top: 25px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .subtitle-block-our-technique {
+    text-align: justify;
+    margin-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .subtitle-block-our-technique br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique {
+    margin-top: 16px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top {
+    max-width: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top .item-technique.item-technique2 {
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-top .item-technique .item-technique-img {
+    min-height: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom {
+    max-width: 100%;
+  }
+
+  .block-view-page.block-view-page-about-us .html-page.html-page-about-us .block-our-technique .block-list-our-technique .list-our-technique.list-our-technique-bottom .item-technique .item-technique-img {
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+  /************************************* КОНЕЦ МОБАЙЛ СТРАНИЦА О НАС ****************************************/
+
+  /************************************* МОБАЙЛ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+  .block-view-page.block-view-page-well-boring {
+    padding-bottom: 70px;
+  }
+
+  .block-view-page.block-view-page-well-boring .container-main-description {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .block-view-page.block-view-page-well-boring .container-main-description:after {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-well-boring .description-page.description-page-well-boring {
+    margin-top: 11px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 7px;
+  }
+
+  .block-view-page.block-view-page-well-boring .description-page.description-page-well-boring * {
+    line-height: 19px;
+  }
+
+  .block-view-page.block-view-page-well-boring .description-page.description-page-well-boring p:not(:first-child) {
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work {
+    margin-top: 0px;
+    text-align: left;
+    padding-left: 18px;
+    background: #E8EBE3;
+    bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work {
+    display: inline-block;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work:not(:first-child) {
+    margin-left: 0px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-slider-our-work .list-services .wrapper-box-video .description-work .item-work:last-child {
+    bottom: 10px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings {
+    margin-top: 10px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .subtitle-block-drawings {
+    padding-left: 9px;
+    padding-right: 9px;
+    text-align: left;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .subtitle-block-drawings br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .list-drawings {
+    margin-top: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-drawings .list-drawings .box-drawing .img-drawing {
+    float: none;
+    bottom: 0px;
+    top: 6px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form {
+    margin-top: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form {
+    padding-bottom: 30px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .subtitle-block-form {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .subtitle-block-form br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .title-form-send {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 23px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order {
+    margin-top: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback {
+    width: 140px;
+    height: 30px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-form .container-block-form .form-order .form-group .form-control {
+    width: 100%;
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders {
+    margin-top: 62px;
+  }
+
+  .block-view-page.block-view-page-well-boring .html-page.html-page-well-boring .block-list-orders .list-orders .item-order .item-link-order br {
+    display: none;
+  }
+
+  /************************************* КОНЕЦ МОБАЙЛ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+
+  /************************************* МОБАЙЛ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+  .block-view-page.block-view-page-our-work {
+    padding-bottom: 70px;
+  }
+
+  .block-view-page.block-view-page-our-work .header-block-view-page {
+    padding-top: 8px;
+  }
+
+  .block-view-page.block-view-page-our-work .container-main-description {
+    padding-top: 20px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .block-view-page.block-view-page-our-work .container-main-description .container:after {
+    bottom: -298px;
+    height: 298px;
+  }
+
+  .block-view-page.block-view-page-our-work .description-page.description-page-our-work {
+    margin-top: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work {
+    padding-left: 59px;
+    padding-right: 0px;
+    padding-top: 37px;
+    padding-bottom: 41px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work {
+    left: -21px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work1 {
+    left: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 .block-img-order-work {
+    top: 9px;
+    left: 30px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 .num-order-work.num-order-work2 {
+    left: -5px;
+    top: 45px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work2 .text-order-work {
+    left: 18px;
+    top: 9px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 {
+    padding-left: 0px;
+    bottom: 0px;
+    margin-top: 33px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 .block-img-order-work {
+    right: -48px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 .num-order-work.num-order-work3 {
+    left: -4px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work3 .text-order-work {
+    left: 33px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 {
+    padding-left: 0px;
+    top: 0px;
+    margin-top: 7px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 .block-img-order-work {
+    left: 64px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 .num-order-work.num-order-work4 {
+    left: -8px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-page-work .block-list-order-work .box-order-work.box-order-work4 .text-order-work {
+    left: 33px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery {
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows {
+    position: relative;
+    top: 22%;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-disabled {
+    opacity: 0.5;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/mobile/arrow_next_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    right: -23px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-left .nav-arrows .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/mobile/arrow_prev_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    left: -23px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery.box-gallery-right .nav-dots2 .slick-dots li {
+    display: inline-block;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .slick-carousel-work-gallery .img-gallery {
+    height: auto;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery {
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 6px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-gallery-page-our-work .block-list-gallery .box-gallery .description-gallery .list-description-gallery .item-text-gallery:not(:first-child) {
+    margin-top: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options {
+    margin-top: 7px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow {
+    z-index: 3;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 40%;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/mobile/arrow_next_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    right: -40px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/mobile/arrow_prev_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    left: -40px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option:not(:first-child) {
+    margin-left: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .img-casing-option {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .name-casing-option {
+    text-align: center;
+    top: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-casing-options .list-casing-options .slick-carousel-casing-options .box-casing-option .name-casing-option br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form {
+    margin-top: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form {
+    padding-bottom: 30px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .subtitle-block-form {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .subtitle-block-form br {
+    display: none;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .title-form-send {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 23px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order {
+    margin-top: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group.form-group-btn-send .btn-send-callback {
+    width: 140px;
+    height: 30px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form .container-block-form .form-order .form-group .form-control {
+    width: 100%;
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-form {
+    margin-top: 25px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements {
+    margin-top: 38px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .subtitle-block-requirements {
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-top: 28px;
+    text-align: left;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements {
+    padding-left: 40px;
+  }
+
+  .block-view-page.block-view-page-our-work .html-page.html-page-our-work .block-requirements .block-list-requirements .list-requirements .item-requirement:before {
+    left: -28px;
+    top: 3px;
+  }
+
+  /************************************* КОНЕЦ МОБАЙЛ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+
+  /************************************* МОБАЙЛ СТРАНИЦА КОНТАКТЫ ****************************************/
+
+  .block-view-page.block-view-page-contacts {
+    padding-bottom: 70px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description {
+    padding-top: 14px;
+    padding-bottom: 40px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .top-paragraph {
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .title-contacts {
+    margin-top: 24px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    color: #000000;
+    margin-top: 23px;
+    left: 18px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .link-phone:before {
+    background: url("/img/tpl_img/mobile/icon_circle_phone.png") no-repeat;
+    width: 27px;
+    height: 27px;
+    left: -37px;
+    top: -2px;
+  }
+
+  .block-view-page.block-view-page-contacts .container-main-description .description-page.description-page-contacts .list-communication .item-communication .item-link-communication img {
+    width: 26px;
+    height: 26px;
+  }
+
+  /************************************* МОБАЙЛ КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/
+
+  /************************************* ТАБЛЕТ СТРАНИЦА ОТЗЫВЫ ****************************************/
+
+  .block-view-page.block-view-page-reviews .container-main-description {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .block-view-page.block-view-page-reviews .container-main-description .header-block-view-page {
+    right: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews {
+    margin-top: 4px;
+    margin-left: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow {
+    border: none;
+    outline: none;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow.slick-carousel-control-next {
+    background: url("/img/tpl_img/mobile/arrow_next_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    right: -40px;
+    top: 0px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-arrows .slick-arrow.slick-carousel-control-prev {
+    background: url("/img/tpl_img/mobile/arrow_prev_black.png") no-repeat;
+    width: 20px;
+    height: 37px;
+    left: -43px;
+    position: absolute;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots {
+    margin-left: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .nav-dots .slick-dots {
+    left: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .slick-list {
+    margin: 0 0px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-page-reviews .container-block-reviews .block-list-reviews .slick-carousel-reviews .box-review .block-reviewer {
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review {
+    margin-top: 50px;
+    /***************** FORM ADD REVIEWS *******************/
+    /***************** END FORM ADD REVIEWS *******************/
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews {
+    /****************** AJAX LOADER *******************/
+    /****************** END AJAX LOADER *******************/
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .leftblock-form {
+    margin-top: 18px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group.form-group-review {
+    margin-top: 0px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group {
+    margin-bottom: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group input.form-control {
+    text-align: left;
+    width: 100%;
+  }
+
+  .block-view-page.block-view-page-reviews .html-page.html-page-reviews .block-form-add-review .container-block-form-reviews .form-reviews .wrapper-form-reviews-fields .form-group textarea.form-control {
+    text-align: left;
+  }
+
+  /************************************* МОБАЙЛ КОНЕЦ СТРАНИЦА ОТЗЫВЫ ****************************************/
+}
+

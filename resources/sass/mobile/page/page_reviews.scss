@@ -1,0 +1,70 @@
+/************************************* ТАБЛЕТ СТРАНИЦА ОТЗЫВЫ ****************************************/
+.block-view-page.block-view-page-reviews {
+
+
+    .container-main-description {
+
+
+        &:after {
+
+        }
+
+        .header-block-view-page {
+
+        }
+
+        /////////////////////// description page
+        .description-page.description-page-reviews {
+
+
+        }
+
+    }
+
+    .html-page.html-page-reviews {
+
+
+        .block-page-reviews {
+            position: relative;
+
+            .wavy-line {
+                background: url(/img/tpl_img/wavy_line_tablet.png) no-repeat;
+                height: 75px;
+                background-size: contain;
+            }
+
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+
+                &:before {
+
+                }
+
+
+            }
+
+            //////////////////LIST REVIEWS
+            @import '../layouts/list_reviews';
+
+
+            .container-block-reviews {
+
+
+                .block-list-reviews {
+
+                }
+            }
+        }
+
+        //////////////////END LIST REVIEWS
+
+       @import "layouts/form_add_review";
+
+
+    }
+
+
+}
+
+/************************************* МОБАЙЛ КОНЕЦ СТРАНИЦА ОТЗЫВЫ ****************************************/

@@ -1,0 +1,59 @@
+///////////////////// List Benefits
+.list-benefits {
+    padding-left: 5.1rem;
+    padding-right: 6.2rem;
+    margin-top: 1.66rem;
+
+    ////// BOX BENEFITS
+    .box-benefits {
+        margin: 0 auto;
+        text-align: center;
+
+
+        .inner-box-benefits {
+            min-width: 157px;
+            ////// wrapper icon benefits
+            .wrapper-icon-benefits {
+                background: linear-gradient(36.17deg, #096E96 11.07%, #6FC3E3 86.85%);
+                position: relative;
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                margin: 0 auto;
+
+                .icon-benefits {
+                    position: absolute;
+                    margin: auto;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: 0
+                }
+            }
+
+            ////// end wrapper icon benefits
+
+
+            .title-benefits {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 22px;
+                text-align: center;
+                color: #1C1C1C;
+                margin-top: 0.6rem;
+                line-height: 27px;
+                width: 157px;
+                height: 54px;
+            }
+
+
+        }
+
+    }
+
+    ////// END BOX BENEFITS
+
+}
+
+///////////////////// End List Benefits

@@ -1,0 +1,477 @@
+.block-view-page.block-view-page-obustroistvo-skvazhini {
+
+
+    .container-main-description {
+
+
+        /////////// Header View Page Default
+        .wrapper-header-block-view-page {
+
+            .header-block-view-page {
+                width: 250px;
+
+
+                &:after {
+
+                }
+
+            }
+        }
+
+        /////////// End Header View Page Default
+
+
+        /////////////////////// description page
+        .description-page.description-page-obustroistvo-skvazhini {
+
+
+            br {
+
+            }
+
+            .bottom-paragraph, .top-paragraph {
+
+
+                strong {
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+            }
+
+            .top-paragraph {
+
+                font-size: 16px;
+                line-height: 19px;
+
+            }
+
+            .bottom-paragraph {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+        }
+
+    }
+
+    .wavy-line {
+
+    }
+
+
+    //html page
+    .html-page.html-page-obustroistvo-skvazhini {
+
+
+        /******************************** BLOCK FIRST OPTION W-CPL **********************************/
+        .block-first-option-w-cpl {
+
+            /////// Left Column Page
+            .left-column-page {
+                padding-left: 15px;
+
+                .wrapper-title-block-first-option-w-cpl {
+
+                    .title-block-first-option-w-cpl {
+                        width: 320px;
+
+                        br {
+                            display: none;
+                        }
+
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+
+                        &:after {
+                            background: url('/img/tpl_img/mobile/icon_waves_mobile.png') no-repeat;
+                            width: 49px;
+                            height: 40px;
+                            bottom: -40px;
+                            left: 3px;
+                        }
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 2.5rem;
+
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .middle-paragraph {
+
+                    }
+
+                    .last-paragraph {
+
+                    }
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+                padding-right: 15px;
+
+                .wrapper-img-right-column-page {
+                    margin-top: 0.5rem;
+                    margin-left: 0px;
+
+                    svg {
+
+                    }
+
+
+                    img {
+
+
+                    }
+
+                    &:after {
+
+                    }
+                }
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK FIRST OPTION W-CPL **********************************/
+
+        /******************************** BLOCK SECOND OPTION W-CPL **********************************/
+        .block-second-option-w-cpl {
+
+            ///// Left Column Page
+            .left-column-page {
+                padding-left: 15px;
+                //// Title
+                .title-block-second-option-w-cpl {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 30px;
+                    color: #000000;
+
+                    br {
+                        display: none;
+                    }
+
+                    width: 300px;
+
+                    &:after {
+                        background: url('/img/tpl_img/mobile/icon_waves_mobile.png') no-repeat;
+                        width: 49px;
+                        height: 40px;
+                        bottom: -40px;
+                        left: 3px;
+                    }
+                }
+
+                /// End title
+
+                //// Text Left Column Page
+                .text-left-column-page {
+                    margin-top: 2.5rem;
+
+
+                    .list-type-well-automation {
+
+
+                        .item-well-automation {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 20px;
+                            letter-spacing: 0.05em;
+                            color: #343434;
+
+                            &:not(:first-child) {
+
+                            }
+
+                            &:before {
+
+                            }
+                        }
+                    }
+
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                }
+
+                //// End Text Left Column Page
+
+            }
+
+            ///// End Left Column Page
+
+            .right-column-page {
+                padding-right: 15px;
+
+                svg {
+
+                }
+
+                .img-right-column-page {
+                    margin-top: 0.5rem;
+                }
+
+            }
+
+        }
+
+        /******************************** END BLOCK SECOND OPTION W-CPL **********************************/
+
+
+        /******************************** BLOCK PUMP INSTALLATION **********************************/
+        .block-pump-installation {
+
+
+            ///////// Left Column Page
+            .left-column-page {
+                .wrapper-title-block-pump-installation {
+                    .title-block-pump-installation {
+                        font-size: 23px;
+
+                        &:after {
+
+                        }
+
+                    }
+                }
+
+                .text-left-column-page {
+                    margin-top: 2rem;
+
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+                }
+
+            }
+
+            ///////// End Left Column Page
+
+
+            ////////////// Right Column Page
+            .right-column-page {
+                padding-right: 15px;
+
+                svg {
+
+                }
+
+                .img-right-column-page {
+
+                }
+            }
+
+            ////////////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK PUMP INSTALLATION **********************************/
+
+
+        /******************************** BLOCK CAISSON INSTALLATION **********************************/
+        .block-caisson-installation {
+
+
+            .block-text-caisson-installation {
+                .wrapper-title-caisson-installation {
+
+                    .title-caisson-installation {
+                        font-size: 23px;
+
+                        &:after {
+
+                        }
+                    }
+
+                }
+
+
+                .text-caisson-installation {
+
+                    margin-top: 2rem;
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    .paragraph {
+
+                    }
+
+                }
+
+            }
+
+
+        }
+
+        /******************************** END BLOCK CAISSON INSTALLATION **********************************/
+
+
+        /******************************** BLOCK SUPPLY WRG WT HOUSE **********************************/
+        .block-supply-wrg-wt-house {
+            margin-top: 1rem;
+            ///////// Left Column Page
+            .left-column-page {
+                .wrapper-title-block-supply-wrg-wt-house {
+                    .title-block-supply-wrg-wt-house {
+                        font-size: 23px;
+
+                        &:after {
+
+                        }
+                    }
+                }
+
+                .text-left-column-page {
+                    margin-top: 2rem;
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+                }
+
+            }
+
+            ///////// End Left Column Page
+
+
+            ////////////// Right Column Page
+            .right-column-page {
+
+
+                svg {
+
+                }
+
+                .img-right-column-page {
+
+                }
+            }
+
+            ////////////// End Right Column Page
+        }
+
+        /******************************** END BLOCK SUPPLY WRG WT HOUSE **********************************/
+
+
+        //////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+
+        }
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+    }
+
+}

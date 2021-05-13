@@ -1,0 +1,163 @@
+.block-view-page.block-view-page-izvlechenie-nasosov {
+
+
+    .container-main-description {
+
+
+
+        /////////////////////// description page
+        .description-page.description-page-izvlechenie-nasosov {
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-top: 5.6rem;
+            * {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 158.47%;
+                /* or 32px */
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #343434;
+            }
+            .bottom-paragraph, .top-paragraph {
+
+
+                strong {
+
+                }
+            }
+
+            .top-paragraph {
+
+            }
+
+            .bottom-paragraph {
+
+            }
+
+        }
+
+    }
+
+    .wavy-line {
+        background: url(/img/tpl_img/wavy_line_tablet.png) no-repeat;
+        height: 75px;
+        background-size: contain;
+    }
+
+
+    //html page
+    .html-page.html-page-izvlechenie-nasosov {
+
+
+        /******************************** BLOCK IZVLECHENIE NASOSOV **********************************/
+        .block-izvlechenie-nasosov {
+            padding-top: 9.7rem;
+            /////// Left Column Page
+            .left-column-page {
+                padding-left: 20px;
+                .wrapper-title-block-izvlechenie-nasosov {
+
+                    .title-block-izvlechenie-nasosov {
+right:  0px;
+
+                        &:after {
+
+                        }
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 4rem;
+                    width: initial;
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 158.47%;
+                        /* or 25px */
+
+                        letter-spacing: 0.05em;
+
+                        color: #343434;
+                    }
+
+                    p {
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+
+                svg {
+display: none;
+                }
+                .wrapper-img-right-column-page {
+
+
+                    img {
+
+
+                    }
+
+                    &:after {
+
+                    }
+                }
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK IZVLECHENIE NASOSOV **********************************/
+
+
+        //////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+    }
+
+}

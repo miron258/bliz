@@ -1,0 +1,82 @@
+/************************************* СТРАНИЦА ОТЗЫВЫ ****************************************/
+.block-view-page.block-view-page-reviews {
+
+    padding-bottom: 72px;
+
+    .container-main-description {
+        position: relative;
+
+        padding-bottom: 0px;
+
+
+
+        .header-block-view-page {
+
+
+        }
+
+        /////////////////////// description page
+        .description-page.description-page-reviews {
+            margin-top: 0px;
+
+
+        }
+
+    }
+
+    .html-page.html-page-reviews {
+
+
+        .block-page-reviews {
+            background: #F3F9FB;
+            @import '../layouts/list_reviews';
+
+            .container-block-reviews {
+                background: none;
+
+
+                .block-list-reviews {
+                    padding-top: 77px;
+                }
+            }
+
+
+            .wavy-line {
+                position: absolute;
+                content: "";
+                display: block;
+                background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+                background-size: cover;
+                height: 101px;
+                width: 100%;
+                z-index: 2;
+            }
+
+        }
+
+
+        .block-form-add-review {
+            margin-top: 108px;
+
+            .title-review {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 34px;
+                line-height: 41px;
+                text-align: center;
+                margin: 0 auto;
+                color: #000000;
+            }
+
+          @import "layouts/form_add_review";
+
+        }
+
+
+    }
+
+
+}
+
+/************************************* КОНЕЦ СТРАНИЦА ОТЗЫВЫ ****************************************/

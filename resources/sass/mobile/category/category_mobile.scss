@@ -1,0 +1,137 @@
+/******************************* Default css ******************************/
+.block-view-category {
+
+    padding-bottom: 80px;
+
+    .container-main-description {
+
+
+    }
+
+    .header-block-view-category {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 31px;
+        text-align: center;
+
+        &:after {
+            background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+            width: 118px;
+            height: 25px;
+            bottom: -42px;
+        }
+    }
+
+    .block-list-materials {
+        padding-bottom: 2rem;
+
+        .row-list-materials {
+
+
+            &:first-child {
+                margin-top: 4rem;
+            }
+
+            &:not(:first-child) {
+                margin-top: 34px;
+            }
+
+            .box-row-materials {
+
+                &:last-child {
+                    margin-top: 43px;
+                }
+
+                /////// Box Material
+                .box-material.box-material-left {
+                    padding-left: 11px;
+
+                }
+
+                .box-material.box-material-right {
+                    padding-left: 11px;
+
+                }
+
+
+                .box-material {
+                    padding-left: 11px;
+                    padding-right: 11px;
+
+
+                    .box-img-material-empty {
+                        width: 100%;
+                    }
+
+                    .box-img-material {
+
+                        img {
+
+                        }
+                    }
+
+                    .box-anons-material {
+
+                        .inner-anons-material {
+                            width: auto;
+
+                            .link-anons-material {
+                                font-size: 13px;
+
+                            }
+
+                            .title-anons-material {
+                                font-size: 18px;
+
+                                &:hover {
+
+                                }
+
+                            }
+
+                            .anons-material {
+                                margin-top: 11px;
+
+
+                                p {
+
+                                }
+
+                                * {
+                                    font-size: 13px;
+                                    line-height: 18px;
+                                }
+                            }
+
+                        }
+
+                    }
+
+
+                }
+
+                /////// End Box Material
+
+            }
+
+        }
+
+    }
+
+    //////////// Block Form
+    .block-form {
+        margin-top: 48px;
+        padding-left: 0px;
+        padding-right: 0px;
+        .container-block-form {
+
+        }
+    }
+
+
+}
+
+
+/******************************* End Default css ******************************/

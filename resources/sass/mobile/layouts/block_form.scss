@@ -1,0 +1,72 @@
+////////////////////// BLOCK FORM STYLE MOBILE
+.block-form {
+    margin-top: 34px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .container {
+        padding-left: 0px;
+        padding-right: 0px;
+        .container-block-form {
+            padding-bottom: 30px;
+            border-radius: 0px;
+            &:before {
+                top: 34px;
+            }
+
+            .subtitle-block-form {
+                margin-top: 2.6rem;
+                padding-left: 10px;
+                padding-right: 10px;
+
+                br {
+                    display: none;
+                }
+            }
+
+
+            .title-form-send {
+                margin-top: 1.2rem;
+            }
+
+
+            ////////// FORM ORDER
+            .form-order {
+                margin-top: 1.45rem;
+                padding-left: 17px;
+                padding-right: 17px;
+
+
+                /////// BUTTON SEND
+                .form-group.form-group-btn-send {
+                    .btn-send-callback {
+                        width: 213px;
+                        height: 61.53px;
+                        line-height: 61.53px;
+                        background: #096E96;
+                        border-radius: 40px;
+
+                    }
+                }
+
+                /////// END BUTTON  SEND
+
+
+                .form-group {
+
+                    .form-control {
+                        width: 100%;
+                        right: 0px;
+                    }
+                }
+
+            }
+
+            ////////// END FORM ORDER
+
+        }
+
+    }
+}
+
+////////////////////////////////////////////////// END BLOCK FORM STYLE MOBILE

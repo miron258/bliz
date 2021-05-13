@@ -1,0 +1,211 @@
+/************************************* СТРАНИЦА РЕМОНТ И ЧИСТКА СКВАЖИН ****************************************/
+.block-view-page.block-view-page-rem-skvazhin {
+    padding-bottom: 0px;
+
+    .container-main-description {
+        position: relative;
+
+
+    }
+
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    /////////////////////// description page
+    .description-page.description-page-rem-skvazhin {
+        text-align: center;
+        margin-top: 77px;
+
+
+        * {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #343434;
+        }
+
+        p {
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+                margin-top: 26px;
+            }
+        }
+
+
+    }
+
+    /////////////////////// end description page
+
+
+    /////////////////// html page
+    .html-page.html-page-rem-skvazhin {
+background: #fff;
+
+        //////////////////////////////////////////////// Block Rem Skvazhina
+        .block-rem-skvazhin {
+            padding-top: 226px;
+
+            /////////////////// LEFT COLUMN PAGE
+            .left-column-page {
+                .wrapper-title-block-rem-skvazhin {
+
+                    .title-block-rem-skvazhin {
+                        position: relative;
+                        width: max-content;
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 34px;
+                        color: #000000;
+                        right: 2px;
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_waves.png') no-repeat;
+                            width: 73px;
+                            height: 59px;
+                            top: 32px;
+                            left: 2px;
+                        }
+
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 70px;
+                    width: 479px;
+                    position: relative;
+
+
+                    b {
+                        font-weight: bold;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                    .img-text-left-column-page {
+                        margin-left: 56px;
+                        margin-top: 3px;
+                        position: relative;
+
+
+                    }
+                }
+            }
+
+            /////////////////// END LEFT COLUMN PAGE
+
+
+            /////////////////// RIGHT COLUMN PAGE
+            .right-column-page {
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    top: -70px;
+                    left: -140px;
+                }
+
+                .list-images {
+                    padding-left: 0px;
+                    list-style: none;
+                     position: relative;
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        position: absolute;
+                        background: url('/img/usr_img/page_rem_skvazhin/icon1.png') no-repeat;
+                        width: 212px;
+                        height: 159px;
+                        bottom: -130px;
+                        right: 58px;
+                    }
+
+
+                    .item-li-img.item-li-img-left {
+                        margin-top: 175px;
+                    }
+
+                    .item-li-img.item-li-img-right {
+                        margin-left: 30px;
+                    }
+
+                    .item-li-img {
+                        float: left;
+
+                        .item-img {
+                            position: relative;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+            /////////////////// END RIGHT COLUMN PAGE
+
+
+        }
+
+        //////////////////////////////////////////////// End Block Auger Drilling
+
+        ////////////////////////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 117px;
+
+        }
+
+        ////////////////////////////////////////////////// END BLOCK FORM
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+            padding-bottom: 55px;
+        }
+
+
+    }
+
+    /////// end html page
+
+
+}

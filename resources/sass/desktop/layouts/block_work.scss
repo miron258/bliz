@@ -1,0 +1,57 @@
+.block-work {
+    margin-top: 1.85rem;
+
+    .container-block-work {
+        padding-top: 3.6rem;
+        padding-bottom: 2.79rem;
+        background: #FFFFFF;
+        border-radius: 40px;
+
+
+        ///// block work title
+        .block-work-title {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 3.38rem;
+            line-height: 66px;
+            color: #000000;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                background: url('/img/tpl_img/icon_title.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                margin: auto;
+                right: 0;
+                left: 0;
+                bottom: -44px;
+            }
+        }
+
+        ///// end block work title
+
+        ///// block work subtitle
+        .block-work-subtitle {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            text-align: center;
+            color: #000000;
+            margin-top: 4.62rem;
+        }
+
+        ///// end block work subtitle
+
+
+        @import "list_order_work";
+    }
+
+}

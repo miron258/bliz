@@ -1,0 +1,360 @@
+.container-block-reviews {
+    background: #F3F9FB;
+    border-radius: 40px;
+    padding-top: 3.55rem;
+    padding-bottom: 4.1rem;
+
+    .title-block-reviews {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3.38rem;
+        line-height: 66px;
+        color: #000000;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        width: max-content;
+
+        &:after {
+            position: absolute;
+            display: block;
+            content: "";
+            background: url('/img/tpl_img/icon_title.png') no-repeat;
+            width: 176px;
+            height: 37px;
+            margin: auto;
+            right: 0;
+            left: 0;
+            bottom: -44px;
+        }
+    }
+
+
+    .block-list-reviews {
+        padding-top: 5.35rem;
+        position: relative;
+        //////////////// navigation arrows
+        .nav-arrows {
+            position: absolute;
+            top: -16%;
+            width: 100%;
+
+            .slick-arrow.slick-disabled{
+                opacity: 0.5;
+                &:hover{
+                    cursor: initial;
+                }
+            }
+            .slick-arrow {
+
+                border: none;
+                outline: none;
+            }
+
+            .slick-arrow.slick-carousel-control-next {
+                background: url('/img/tpl_img/arrow_next.png') #096E96 50% 50% no-repeat;
+                width: 60px;
+                height: 60px;
+                border-radius: 60px;
+                right: 27.4%;
+                top: 0px;
+                position: absolute;
+
+                &:hover{
+                    -webkit-transition: .1s ease-in-out;
+                    transition: .1s ease-in-out;
+                    background-color: #0092CA;
+                }
+
+            }
+
+            .slick-arrow.slick-carousel-control-prev {
+                background: url('/img/tpl_img/arrow_prev.png') #096E96 50% 50% no-repeat;
+                width: 60px;
+                height: 60px;
+                border-radius: 60px;
+                left: 27.4%;
+                position: absolute;
+                &:hover{
+                    -webkit-transition: .1s ease-in-out;
+                    transition: .1s ease-in-out;
+                    background-color: #0092CA;
+                }
+            }
+        }
+
+        //////////////// end navigation arrows
+
+
+        ///////////////// dots nav
+        .nav-dots {
+            position: absolute;
+            width: 100%;
+            bottom: -26px;
+
+            .slick-dots {
+
+                //// Active slick dot
+                li.slick-active {
+
+                    button {
+                        background: #096E96;
+                        border: 3px solid #096E96;
+                        &:before {
+                            display: none;
+                        }
+                    }
+
+                }
+
+                //// End Active slick dot
+
+
+                //// Not active slick dot
+                li {
+                    display: inline-block;
+                    width: auto;
+                    height: auto;
+
+                    button {
+                        display: block;
+
+                        &:not(:first-child) {
+                            margin-left: 10px;
+                        }
+
+                        padding: 0px;
+                        background: #FFFFFF;
+                        border: 3px solid #6FC3E3;
+                        box-sizing: border-box;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 12px;
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+
+                //// End Not active slick dot
+
+            }
+        }
+
+        ///////////////// end dots nav
+
+
+        ///////// SLICK CAROUSEL REVIEWS
+        .slick-carousel-reviews {
+            position: relative;
+            padding-left: 4.6rem;
+            padding-right: 4.6rem;
+            /* the slides */
+            .slick-list {
+                margin: 0 5px;
+
+                .slick-slide {
+
+                    &:first-child {
+
+                    }
+
+                    &:not(:first-child) {
+
+                    }
+
+                    margin: 0 20px;
+                }
+
+            }
+
+
+            /**************** BOX REVIEW ***************/
+            .box-review {
+                position: relative;
+
+
+
+                /////// BLOCK REVIEWER
+                .block-reviewer {
+                    position: relative;
+
+                    //width: 470px;
+
+
+                    //////// END IMG REVIEWER
+
+
+                    //////// DESCRIPTION REVIEWER
+                    .description-reviewer {
+
+                        //////// IMG REVIEWER
+                        .img-reviewer {
+                            position: relative;
+                            left: 0px;
+                            top: 10px;
+width: 84px;
+                            img {
+                                width: 84px;
+                                height: 84px;
+                                border-radius: 84px;
+                                overflow: hidden;
+                            }
+
+                        }
+
+                        //////// END IMG REVIEWER
+
+
+
+                        /////// BLOCK INFO REVIEWER
+                        .block-info-reviewer.indent-left{
+                            padding-left: 2.5rem;
+                        }
+                        .block-info-reviewer {
+
+                            width: 390px;
+                            position: relative;
+                            .name-reviewer {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 158.47%;
+                                /* identical to box height, or 29px */
+
+                                letter-spacing: 0.05em;
+
+                                color: #000000;
+                            }
+
+                            .text-order {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 18px;
+                                margin-top: 0.45rem;
+                                letter-spacing: 0.05em;
+                                color: #343434;
+
+                                p {
+                                    margin: 0px;
+                                }
+                            }
+
+                            .location-reviewer {
+                                position: relative;
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 12px;
+                                line-height: 15px;
+                                margin-top: 0.9rem;
+                                margin-left: 1.6rem;
+                                letter-spacing: 0.09em;
+                                color: #5B5959;
+
+                                &:before {
+                                    display: block;
+                                    content: "";
+                                    position: absolute;
+                                    background: url('/img/tpl_img/icon_location.png') no-repeat;
+                                    width: 18px;
+                                    height: 24px;
+                                    left: -25px;
+                                    top: -4px;
+                                }
+
+
+                            }
+                        }
+                        /////// END BLOCK INFO REVIEWER
+
+                    }
+
+                    //////// END DESCRIPTION REVIEWER
+
+
+                }
+
+                /////// END BLOCK REVIEWER
+
+
+                //// TEXT REVIEW
+                .text-review {
+                    margin-top: 2rem;
+
+                    p {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 158.47%;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+
+                        &:first-child {
+                            margin-bottom: 0px;
+                        }
+
+                        &:not(:first-child) {
+                            margin-bottom: 0px;
+                        }
+
+                    }
+                }
+
+
+            }
+
+            /**************** END BOX REVIEW ***************/
+
+        }
+
+        ///////// END SLICK CAROUSEL REVIEWS
+
+
+    }
+
+    ///// END BLOCK LIST REVIEWS
+
+
+    //////////////// BUTTON ADD REVIEWS
+    .wrapper-bt-add-reviews {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5.4rem;
+
+        .bt-add-reviews {
+            outline: none;
+            border: none;
+            width: 304px;
+            height: 62px;
+            margin: 0 auto;
+            background: #096E96;
+            box-shadow: 0px 10px 40px -5px rgba(25, 133, 175, 0.3);
+            border-radius: 40px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 21px;
+            line-height: 62px;
+            text-align: center;
+            color: #FFFFFF;
+
+            &:hover {
+                -webkit-transition: .1s ease-in-out;
+                transition: .1s ease-in-out;
+                box-shadow: none;
+                background: #0092CA;
+                cursor: pointer;
+            }
+        }
+    }
+
+    //////////////// END BUTTON ADD REVIEWS
+
+
+}

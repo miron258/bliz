@@ -1,0 +1,186 @@
+/////////////////////// MOBILE MENU
+.mobile-menu.mm-menu_popup {
+    //top: 264px;
+    //height: 83%;
+    box-shadow: none;
+}
+
+//////// MM Icons Bar
+.mobile-menu.mm-menu.mm-menu_iconbar-right {
+
+    .mm-iconbar {
+        border: none;
+        //position: relative;
+
+        .mm-iconbar__top {
+            position: relative;
+
+            .menu-requisites {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 10px;
+                line-height: 12px;
+                text-align: center;
+                letter-spacing: 0.08em;
+                color: #FFFFFF;
+                transform: rotate(-180deg);
+                writing-mode: tb-rl;
+                position: relative;
+                left: 10px;
+                display: block;
+            }
+
+
+            .link-icon-phone {
+                background: url('/img/tpl_img/tablet/icon_phone_menu.png') no-repeat;
+                width: 21px;
+                height: 21px;
+                position: relative;
+                left: 10px;
+                margin-top: 13px;
+            }
+
+            .link-icon-vk {
+                background: url('/img/tpl_img/tablet/icon_vk_menu.png') no-repeat;
+                width: 23px;
+                height: 13px;
+                margin-top: 20px;
+                position: relative;
+                left: 10px;
+            }
+
+        }
+
+        .mm-iconbar__bottom {
+
+
+        }
+
+
+    }
+
+}
+
+//////// END MM Icons Bar
+
+
+.mobile-menu.mm-menu {
+
+
+    //$mm_popupShadow
+    --mm-color-background: #0B729A;
+    --mm-color-button: #fff;
+    --mm-offset-top: 88.62px;
+    --mm-color-text: #fff;
+    --mm-color-text-dimmed: #fff;
+
+
+    mm-listitem__text {
+
+    }
+
+
+    .mm-panels {
+
+        .mm-panel {
+            padding: 0px;
+        }
+
+        .mm-panel.mm-panel_opened {
+            .mm-btn_next:after, .mm-btn_prev:before{
+                width: 15px;
+                height: 15px;
+            }
+            .mm-navbar{
+
+
+
+                border: none;
+                //display: none;
+                .mm-navbar__title {
+                    display: none;
+                }
+            }
+
+
+            .main-menu, .sub-menu {
+                .item-main-menu.active {
+                    text-decoration: underline;
+                }
+                .mm-listitem__btn{
+                    padding-right: 10px;
+                }
+                .item-main-menu.mm-listitem {
+                    border: none;
+
+                    &:after {
+                        display: none;
+                    }
+
+                    ///////////////// button submenu
+                    .mm-btn.mm-btn_next.mm-listitem__btn {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 27px;
+                        text-align: center;
+                        display: block;
+                        margin: 0 auto;
+                        letter-spacing: 0.08em;
+                        color: #FFFFFF;
+                        border: none;
+
+                        &:after{
+
+                        }
+                        //position: absolute;
+                        //right: 38%;
+                        //top: 0.85rem;
+                        /// стилизация стрелки
+                        .mm-sronly {
+                            &:after {
+
+                            }
+                        }
+                    }
+
+                    ///////////////// end button submenu
+
+                    .link-item-main-menu {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 27px;
+                        text-align: center;
+                        display: block;
+                        margin: 0 auto;
+                        letter-spacing: 0.08em;
+                        color: #FFFFFF;
+
+
+
+
+
+                        &:not(:first-child) {
+                            margin-top: 20px;
+                        }
+
+
+                        &:after {
+                            display: none;
+                        }
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+}
+
+/////////////////////// END MOBILE MENU

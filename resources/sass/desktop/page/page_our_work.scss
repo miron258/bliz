@@ -1,0 +1,515 @@
+/************************************* СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+.block-view-page.block-view-page-our-work {
+    padding-bottom: 91px;
+
+    .container-main-description {
+        position: relative;
+        background: #fff;
+    }
+
+
+    /////////////////////// description page
+    .description-page.description-page-our-work {
+
+
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-our-work {
+
+        //////////////////////////////// BLOCK OUR WORK
+        .block-page-work {
+            background: #fff;
+            margin-top: 0px;
+            padding-bottom: 0px;
+            ////// List Order Work
+            @import "../layouts/list_order_work";
+
+            .block-list-order-work {
+                margin-top: 0px;
+                padding-top: 46px;
+                padding-left: 0rem;
+                padding-right: 0rem;
+
+                .box-order-work {
+
+                    .inner-box-order-work {
+                        .num-order-work {
+                            left: 60px;
+                        }
+
+
+                        .block-img-order-work {
+                            .img-order-work {
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            ////// End List Order Work
+
+            .wavy-line {
+                //position: absolute;
+                //content: "";
+                //display: block;
+                //background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+                //background-size: cover;
+                //height: 101px;
+                //width: 100%;
+                //z-index: 2;
+            }
+        }
+
+        //////////////////////////////// END  BLOCK OUR WORK
+
+
+        ////////////////// Block Gallery Page Our Work
+        .block-gallery-page-our-work {
+            margin-top: 142px;
+            padding-top: 50px;
+            background: #F3F9FB;
+            position: relative;
+
+
+            &:before {
+                position: absolute;
+                content: "";
+                display: block;
+                background: url('/img/tpl_img/wavy_line_top_small.png') center center no-repeat;
+                background-size: cover;
+                height: 99px;
+                width: 100%;
+                top: -99px;
+            }
+
+            &:after {
+                position: absolute;
+                content: "";
+                display: block;
+                background: url('/img/tpl_img/wavy_line_bottom_small.png') center center no-repeat;
+                background-size: cover;
+                height: 100px;
+                width: 100%;
+            }
+
+
+            .title-gallery-page-our-work {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 66px;
+                color: #000000;
+                margin: 0 auto;
+                text-align: center;
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: url('/img/tpl_img/icon_title.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    margin: auto;
+                    right: 0;
+                    left: 0;
+                    bottom: -44px;
+                }
+            }
+
+
+            .block-list-gallery {
+                margin-top: 83px;
+                padding-bottom: 50px;
+                ////// Box Gallery
+
+
+                //////////////// ROW LIST GALLERY
+                .row-list-gallery {
+
+                    &:not(:first-child) {
+                        margin-top: 2.5rem;
+                    }
+
+                    ////////////////////// Box Gallery Left
+                    .box-gallery.box-gallery-left {
+
+
+                    }
+
+                    ////////////////////// End Box Gallery Left
+
+
+                    ////////////////////// Box Gallery Right
+                    .box-gallery.box-gallery-right {
+
+                        .description-gallery {
+                            margin-top: 15px;
+                        }
+
+
+                    }
+
+                    ////////////////////// End Box Gallery Right
+
+
+                    //// DEFAULT BOX GALLERY
+                    .box-gallery {
+                        position: relative;
+                        margin-left: 0px;
+                        margin-right: 0px;
+
+                        .wrapper-img {
+                            padding-left: 0px;
+                            padding-right: 0px;
+                            height: max-content;
+                        }
+
+                        .slick-carousel-work-gallery {
+                            margin-bottom: 0px;
+                            position: relative;
+
+
+                            ///////////////// dots nav
+
+
+                            .slick-dots {
+                                position: absolute;
+                                bottom: 20px;
+                                //// Active slick dot
+                                li.slick-active {
+
+                                    button {
+                                        background: #096E96;
+                                        border: 3px solid #096E96;
+                                        position: relative;
+                                        z-index: 10;
+
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+
+                                }
+
+                                //// End Active slick dot
+
+
+                                //// Not active slick dot
+                                li {
+                                    display: inline-block;
+                                    width: auto;
+                                    height: auto;
+
+                                    button {
+                                        display: block;
+
+                                        &:not(:first-child) {
+                                            margin-left: 10px;
+                                        }
+
+                                        padding: 0px;
+                                        background: #FFFFFF;
+                                        border: 3px solid #6FC3E3;
+                                        box-sizing: border-box;
+                                        width: 22px;
+                                        height: 22px;
+                                        border-radius: 22px;
+
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                                //// End Not active slick dot
+
+                            }
+
+
+                            ///////////////// end dots nav
+
+
+                            .img-gallery {
+                                height: 418px;
+
+                            }
+                        }
+
+                        .description-gallery {
+                            padding-left: 0px;
+                            margin-top: 15px;
+
+                            .list-description-gallery {
+                                list-style: none;
+                                padding-left: 0px;
+
+                                ///// Item Text Gallery
+                                .item-text-gallery {
+                                    position: relative;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 158.47%;
+                                    letter-spacing: 0.05em;
+                                    color: #000000;
+                                    padding-left: 25px;
+
+                                    &:before{
+                                        position: absolute;
+                                        content: "";
+                                        display: block;
+                                        background: url(/img/tpl_img/tablet/check_tablet.png);
+                                        width: 16px;
+                                        height: 16px;
+                                        top: 4px;
+                                        left: 0px;
+                                    }
+
+                                }
+
+                                ///// End Item Text Gallery
+                            }
+
+                        }
+                    }
+
+                    ////// End Box Gallery
+
+
+                }
+
+                /// END ROW LIST GALLERY
+
+            }
+
+
+        }
+
+        ////////////////// End Block Gallery Page Our Work
+
+
+        ////////////////////////////// BLOCK CASING OPTIONS ////////////////////////////////////
+        .block-casing-options {
+            margin-top: 123px;
+
+            .title-block-casing-options {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 66px;
+                margin: 0 auto;
+                text-align: center;
+                color: #000000;
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: url('/img/tpl_img/icon_title.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    margin: auto;
+                    right: 0;
+                    left: 0;
+                    bottom: -44px;
+                }
+            }
+
+
+            .list-casing-options {
+                margin-left: 14px;
+                margin-top: 60px;
+
+                .slick-carousel-casing-options {
+
+                    //////// Box Casing Option
+                    .box-casing-option.box-casing-option1 {
+
+
+                        .name-casing-option {
+                            //margin-left: 5px;
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option2 {
+                        .img-casing-option {
+                            //margin-left: 26px;
+                        }
+
+                        .name-casing-option {
+                            //margin-left: 13px;
+                        }
+
+
+                    }
+
+                    .box-casing-option.box-casing-option3 {
+                        .img-casing-option {
+                            //margin-left: 37px;
+                            //position: relative;
+                            //bottom: 8px;
+                        }
+
+                        .name-casing-option {
+                            //margin-left: 25px;
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option4 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    .box-casing-option {
+
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 158.47%;
+                            letter-spacing: 0.05em;
+                            color: #000000;
+                            position: relative;
+                            margin-top: 51px;
+                            left: 5px
+
+                        }
+
+                    }
+
+                    //////// End Box Casing Option
+
+
+                }
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK CASING OPTIONS ////////////////////////////////////
+
+
+        ////////////////////////////// BLOCK FORM ////////////////////////////////////
+        .block-form {
+            margin-top: 126px;
+
+        }
+
+        ////////////////////////////// END BLOCK FORM ////////////////////////////////////
+
+        ////////////////////////////// BLOCK REQUIREMENTS ////////////////////////////////////
+        .block-requirements {
+            margin-top: 115px;
+
+            .title-block-requirements {
+                margin: 0 auto;
+                text-align: center;
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 66px;
+                color: #000000;
+                position: relative;
+
+                &:after {
+                    position: absolute;
+                    display: block;
+                    content: "";
+                    background: url('/img/tpl_img/icon_title.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    margin: auto;
+                    right: 0;
+                    left: 0;
+                    bottom: -44px;
+                }
+            }
+
+            .subtitle-block-requirements {
+                margin: 0 auto;
+                text-align: center;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 158.47%;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 87px;
+            }
+
+
+            .block-list-requirements {
+                margin: 0 auto;
+                text-align: center;
+                margin-top: 38px;
+                ////// List Requirements
+                .list-requirements {
+                    padding-left: 0px;
+                    list-style: none;
+                    padding-left: 165px;
+
+                    .item-requirement {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 19px;
+
+                        letter-spacing: 0.05em;
+                        color: #000000;
+                        position: relative;
+                        text-align: left;
+
+                        &:before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            left: -66px;
+                            top: 2px;
+                            background: url('/img/tpl_img/icon_check.png') no-repeat;
+                            width: 30px;
+                            height: 30px;
+                        }
+
+                        &:not(:first-child) {
+                            margin-top: 29px;
+                        }
+                    }
+                }
+
+                ////// End List Requirements
+
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK REQUIREMENTS ////////////////////////////////////
+
+    }
+
+    /////////////////// end html page
+
+
+}
+
+/************************************* КОНЕЦ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/

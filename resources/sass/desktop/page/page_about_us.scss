@@ -1,0 +1,573 @@
+/************************************* СТРАНИЦА О НАС ****************************************/
+.block-view-page.block-view-page-about-us {
+
+    padding-bottom: 25px;
+
+    .container-main-description {
+        padding-bottom: 3.5rem;
+    }
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .description-page.description-page-about-us {
+        p {
+            &:first-child {
+
+            }
+
+
+            &:not(:first-child) {
+                margin-top: 26px;
+            }
+        }
+
+
+        @import "../layouts/list_benefits";
+
+        ///////////////////// List Benefits
+        .list-benefits {
+            padding-left: 0rem;
+            padding-right: 0rem;
+
+            .box-benefits {
+
+                .inner-box-benefits {
+                    .title-benefits {
+                        height: initial;
+                        width: 180px;
+                    }
+                }
+
+            }
+        }
+
+        ///////////////////// End List Benefits
+
+
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-about-us {
+        background: #fff;
+        ////////// Block certificates
+        .block-certificates {
+            padding-top: 114px;
+            background: #fff;
+
+            .wrapper-title-block-certificates {
+                .title-block-certificates {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    line-height: 66px;
+                    margin: 0 auto;
+                    text-align: center;
+                    color: #000000;
+                    position: relative;
+
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icon_title.png') no-repeat;
+                        width: 176px;
+                        height: 37px;
+                        margin: auto;
+                        right: 0;
+                        left: 0;
+                        bottom: -44px;
+                    }
+                }
+            }
+
+            .subtitle-block-certificates {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 80px;
+            }
+
+            ///////////// Slider Certificates
+            .slider-certificates {
+                position: relative;
+                margin-top: 63px;
+
+                //////////////// navigation arrows
+                .nav-arrows {
+                    position: absolute;
+                    top: 52%;
+                    width: 100%;
+
+                    .slick-arrow.slick-disabled {
+                        opacity: 0.5;
+
+                        &:hover {
+                            cursor: initial;
+                        }
+                    }
+
+                    .slick-arrow {
+                        z-index: 3;
+                        border: none;
+                        outline: none;
+                    }
+
+                    .slick-arrow.slick-carousel-control-next {
+                        background: url('/img/tpl_img/arrow_next.png') #096E96 50% 50% no-repeat;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 60px;
+                        position: absolute;
+                        right: 20px;
+                        &:hover{
+                            -webkit-transition: .1s ease-in-out;
+                            transition: .1s ease-in-out;
+                            box-shadow: none;
+                            background-color: #0092CA;
+                        }
+
+                    }
+
+                    .slick-arrow.slick-carousel-control-prev {
+                        background: url('/img/tpl_img/arrow_prev.png') #096E96 50% 50% no-repeat;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 60px;
+                        position: absolute;
+                        left: 20px;
+                        &:hover{
+                            -webkit-transition: .1s ease-in-out;
+                            transition: .1s ease-in-out;
+                            box-shadow: none;
+                            background-color: #0092CA;
+                        }
+                    }
+                }
+
+                //////////////// end navigation arrows
+
+                ////// End Nav Arrows Certificates
+
+                .slick-carousel-certificates {
+                    position: relative;
+
+                    &:before {
+                        position: absolute;
+                        left: 0px;
+                        top: 63px;
+                        z-index: 2;
+                        content: "";
+                        display: block;
+                        width: 172px;
+                        height: 503px;
+                        background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+                    }
+
+                    &:after {
+                        position: absolute;
+                        right: -3px;
+                        top: 63px;
+                        z-index: 2;
+                        content: "";
+                        display: block;
+                        width: 172px;
+                        height: 503px;
+                        background: linear-gradient(90deg, #FFFFFF 59.34%, rgba(255, 255, 255, 0) 100%);
+                        transform: rotate(-180deg);
+                    }
+
+                    ////// Box Certificate
+                    .box-certificate {
+
+                        .name-certificate {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 16px;
+                            height: 54px;
+                            margin: 0 auto;
+                            text-align: center;
+                            letter-spacing: 0.05em;
+                            color: #000000;
+                        }
+
+                        .link-certificate {
+                            outline: none;
+                            text-decoration: none;
+                            display: block;
+                            margin-top: 8px;
+
+                            &:hover {
+                                text-decoration: none;
+                            }
+
+                            .img-certificate {
+                                height: 503px;
+
+                            }
+                        }
+
+                    }
+
+                    ////// End Box Certificate
+
+
+                }
+
+            }
+
+            ///////////// End Slider Certificates
+        }
+
+        ////////// End Block certificates
+
+
+        ///////////////////////////// Block Partners
+        .block-partners {
+            margin-top: 206px;
+            background: #fff;
+
+            .wrapper-title-block-partners {
+
+                .title-block-partners {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    line-height: 66px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #000000;
+                    width: max-content;
+                    position: relative;
+
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icon_title.png') no-repeat;
+                        width: 176px;
+                        height: 37px;
+                        margin: auto;
+                        right: 0;
+                        left: 0;
+                        bottom: -44px;
+                    }
+                }
+            }
+
+            //////// List Banners Partners
+            .list-banners-partners {
+                margin-top: 80px;
+
+                .list-banners {
+                    list-style: none;
+                    padding-left: 97px;
+
+
+                    .item-banner.item-banner1 {
+
+                    }
+
+                    .item-banner.item-banner2 {
+                        position: relative;
+                        top: 18px;
+                        left: 9px;
+                    }
+
+
+                    .item-banner {
+                        display: inline-block;
+
+                        .item-banner-img {
+
+                        }
+                    }
+
+
+                }
+
+            }
+
+            //////// End List Banners Partners
+
+        }
+
+        ///////////////////////////// End Block Partners
+
+
+        //////////////////////////// Block Documents
+        .block-documents {
+            margin-top: 116px;
+            padding-top: 48px;
+            padding-bottom: 97px;
+            background: #F3F9FB;
+            position: relative;
+
+            .wrapper-title-block-documents {
+
+                .title-block-documents {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    line-height: 66px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #000000;
+                    width: max-content;
+                    position: relative;
+
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icon_title.png') no-repeat;
+                        width: 176px;
+                        height: 37px;
+                        margin: auto;
+                        right: 0;
+                        left: 0;
+                        bottom: -44px;
+                    }
+
+                }
+            }
+
+            .subtitle-block-documents {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                text-align: center;
+                margin: 0 auto;
+                margin-top: 80px;
+                letter-spacing: 0.05em;
+            }
+
+
+            .list-documents {
+                margin-top: 72px;
+                //margin-left: 52px;
+
+                /////// Box Document 1
+                .box-document.box-document1 {
+
+                    .link-document {
+                        float: right;
+                        margin-right: 14px;
+                    }
+                }
+
+                /////// End Box Document 1
+
+                /////// Box Document 2
+                .box-document.box-document2 {
+                    .link-document {
+                        margin-left: 14px;
+                    }
+                }
+
+                /////// End Box Document 2
+
+                /////// Box Document
+                .box-document {
+
+                    .link-document {
+                        position: relative;
+                        display: block;
+                        text-align: center;
+                        letter-spacing: 0.07em;
+                        width: 474px;
+                        height: 62px;
+                        line-height: 62px;
+
+                        box-shadow: 0px 15px 30px -5px rgba(25, 133, 175, 0.5);
+                        background: url('/img/tpl_img/icon_document.png')  #096E96 4% 50% no-repeat;
+                        border-radius: 3px;
+                        text-decoration: none;
+
+                        &:hover {
+                            -webkit-transition: .1s ease-in-out;
+                            transition: .1s ease-in-out;
+                            box-shadow: none;
+                            background-color: #0092CA;
+                            text-decoration: none;
+                        }
+
+                        .text-document {
+                            display: block;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 22px;
+                            color: #FFFFFF;
+                            position: relative;
+                            left: 20px;
+                        }
+                    }
+
+                }
+
+                /////// End Box Document
+
+
+            }
+
+        }
+
+        //////////////////////////// End Block Documents
+
+        //////////////////////////// End Block Our Technique
+        .block-our-technique {
+            margin-top: 83px;
+
+
+            .wrapper-title-block-our-technique {
+                .title-block-our-technique {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    line-height: 66px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #000000;
+                    position: relative;
+                    width: max-content;
+
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icon_title.png') no-repeat;
+                        width: 176px;
+                        height: 37px;
+                        margin: auto;
+                        right: 0;
+                        left: 0;
+                        bottom: -44px;
+                    }
+                }
+            }
+
+            .subtitle-block-our-technique {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                margin: 0 auto;
+                margin-top: 80px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+
+
+            .block-list-our-technique {
+                margin-top: 80px;
+
+                ///// Our Tech Top Row
+                .list-our-technique.list-our-technique-top {
+                    margin-bottom: 5px;
+
+                    .item-technique.item-technique1 {
+
+                    }
+
+                    .item-technique.item-technique2 {
+                        padding: 0px;
+                        position: relative;
+                        right: 7px;
+                    }
+
+                    .item-technique {
+
+                        .item-technique-img {
+
+                        }
+
+                    }
+
+                }
+
+
+                //Our Tech Bottom Row
+                .list-our-technique.list-our-technique-bottom {
+
+                    .item-technique.item-technique1 {
+
+                    }
+
+                    .item-technique.item-technique2 {
+                        padding: 0px;
+                        position: relative;
+                        right: 7px;
+                    }
+
+                    .item-technique.item-technique3 {
+                        padding-left: 7px;
+
+                        .item-technique-img {
+                            float: right;
+                        }
+
+                    }
+
+                    .item-technique {
+
+                        .item-technique-img {
+
+                        }
+
+                    }
+                }
+
+
+                .list-our-technique {
+                    list-style: none;
+                    padding-left: 0px;
+
+                    .item-technique {
+                        display: inline-block;
+
+                        .item-technique-img {
+
+                        }
+
+                    }
+                }
+
+
+            }
+
+        }
+
+        //////////////////////////// End Block Our Technique
+
+    }
+
+    /////////////////// end html page
+
+
+}
+
+
+/************************************* КОНЕЦ СТРАНИЦА О НАС ****************************************/

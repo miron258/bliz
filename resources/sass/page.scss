@@ -1,0 +1,7 @@
+@import "desktop/page/page";
+@media (max-width: 1069px) {
+    @import "tablet/page/page_tablet";
+}
+@media (max-width: 576px) {
+    @import "mobile/page/page_mobile";
+}

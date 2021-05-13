@@ -1,0 +1,187 @@
+/************************************* СТРАНИЦА РЕМОНТ И ЧИСТКА СКВАЖИН ****************************************/
+.block-view-page.block-view-page-rem-skvazhin {
+
+
+    .container-main-description {
+
+
+    }
+
+    .wavy-line {
+        //background-size: cover;
+        //background: url(/img/tpl_img/wavy_line_mobile.png) center center no-repeat;
+        //height: 49px;
+    }
+
+    /////////////////////// description page
+    .description-page.description-page-rem-skvazhin {
+
+
+        * {
+
+        }
+
+        p {
+            br {
+
+            }
+
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+
+            }
+        }
+
+
+    }
+
+    /////////////////////// end description page
+
+
+    /////////////////// html page
+    .html-page.html-page-rem-skvazhin {
+
+
+        //////////////////////////////////////////////// Block Rem Skvazhina
+        .block-rem-skvazhin {
+
+            padding-top: 5.6rem;
+            /////////////////// LEFT COLUMN PAGE
+            .left-column-page {
+                padding-left: 15px;
+
+                .wrapper-title-block-rem-skvazhin {
+
+                    .title-block-rem-skvazhin {
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+
+                        &:after {
+                            background: url('/img/tpl_img/mobile/icon_waves_mobile.png') no-repeat;
+                            width: 49px;
+                            height: 40px;
+                            top: 28px;
+                            left: 3px;
+                        }
+
+                    }
+
+                }
+
+
+                .text-left-column-page {
+
+                    margin-top: 2.5rem;
+
+                    b {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                    .img-text-left-column-page {
+
+
+                    }
+                }
+            }
+
+            /////////////////// END LEFT COLUMN PAGE
+
+
+            /////////////////// RIGHT COLUMN PAGE
+            .right-column-page {
+                padding-left: 15px;
+                background-position: 100% 90%;
+
+                svg {
+
+                }
+
+                .list-images {
+
+
+                    &:after {
+                        background: url(/img/usr_img/page_rem_skvazhin/icon1_mobile.png) no-repeat;
+                        width: 122px;
+                        height: 93px;
+                        bottom: -70px;
+                    }
+
+
+                    .item-li-img.item-li-img-left {
+                        margin-top: 5rem;
+                    }
+
+                    .item-li-img.item-li-img-right {
+                        margin-top: 1.7rem;
+                    }
+
+                    .item-li-img {
+
+
+                        .item-img {
+
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+            /////////////////// END RIGHT COLUMN PAGE
+
+
+        }
+
+        //////////////////////////////////////////////// End Block Auger Drilling
+
+        ////////////////////////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 5rem;
+
+        }
+
+        ////////////////////////////////////////////////// END BLOCK FORM
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+
+    }
+
+    /////// end html page
+
+
+}

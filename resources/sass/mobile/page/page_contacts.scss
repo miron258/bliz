@@ -1,0 +1,77 @@
+/************************************* МОБАЙЛ СТРАНИЦА КОНТАКТЫ ****************************************/
+.block-view-page.block-view-page-contacts {
+
+
+    .container-main-description {
+
+        /////////////////////// description page
+        .description-page.description-page-contacts {
+
+
+            .top-paragraph {
+
+            }
+
+            .title-contacts {
+
+            }
+
+            .link-phone {
+
+                &:hover {
+
+                }
+
+                &:before {
+
+                }
+
+            }
+
+
+            ////// List Communication
+            .list-communication {
+
+                /// Item communication
+                .item-communication {
+
+
+                    &:not(:first-child) {
+                        margin-left: 1rem;
+                    }
+
+                    .item-link-communication {
+                        img {
+
+                        }
+
+                        &:hover {
+
+                        }
+
+                    }
+                }
+
+                /// End Item communication
+
+            }
+
+            ////// List Communication
+
+
+        }
+    }
+
+    /////////////////// html page
+    .html-page.html-page-contacts {
+
+
+        //////////////////////////////// BLOCK FORM
+        .block-form {
+            margin-top: 5.5rem;
+
+        }
+    }
+}
+
+/************************************* МОБАЙЛ КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/

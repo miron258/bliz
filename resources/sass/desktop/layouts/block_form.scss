@@ -1,0 +1,240 @@
+.block-form {
+    margin-top: 1.85rem;
+
+    .container {
+
+
+        .container-block-form {
+            background: url('/img/tpl_img/bg_form_email.png') #F3F9FB 100% 32.4% no-repeat;
+            //background: #F3F9FB;
+            padding-top: 0px;
+            padding-bottom: 66px;
+            position: relative;
+            border-radius: 40px;
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 100%;
+                top: 38px;
+                height: 22px;
+                background: linear-gradient(90.24deg, #0B729A 0.48%, #3AB0DE 27.43%, #0B729A 50.24%, #369DC6 73.05%, #0B729A 97.41%), #0B729A;
+
+            }
+
+            .message-form-order {
+                margin: 0 auto;
+                text-align: center;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 158.47%;
+                letter-spacing: 0.05em;
+                color: #096E96;
+
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+            /****************** AJAX LOADER *******************/
+            .loader-gif {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1000;
+                background-color: #fff;
+                opacity: 0.8;
+
+                .ajax-loader {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                }
+            }
+
+            /****************** END AJAX LOADER *******************/
+
+            .title-block-form {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 62px;
+                text-align: center;
+                color: #000000;
+                padding-top: 6.7rem;
+            }
+
+            .subtitle-block-form {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 28px;
+                text-align: center;
+                color: #000000;
+                margin-top: 34px;
+            }
+
+            .title-form-send {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                margin-top: 48px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+
+
+            /******************* STYLE FORM ****************/
+            .form-order {
+                margin-top: 43px;
+
+                .form-group.form-group-btn-send {
+                    margin: 0 auto;
+                    text-align: center;
+                    margin-top: 20px;
+
+                    .btn-send-callback {
+                        outline: none;
+                        border: none;
+                        width: 213px;
+                        height: 61.53px;
+                        line-height: 61.53px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 21px;
+                        background: #096E96;
+                        box-shadow: 0px 10px 40px -5px rgba(25, 133, 175, 0.3);
+                        border-radius: 40px;
+                        text-align: center;
+                        color: #FFFFFF;
+
+                        &:disabled {
+                            opacity: 0.65;
+                        }
+
+                        &:hover{
+                            box-shadow: none;
+                            -webkit-transition: .1s ease-in-out;
+                            transition: .1s ease-in-out;
+                            box-shadow: none;
+                            background: #0092CA;
+                        }
+
+
+                    }
+                }
+
+                .form-group.form-group-address {
+                    padding-left: 78px;
+                }
+
+                .form-group.form-group-phone {
+                    padding-left: 33px;
+                }
+
+                .form-group.form-group-name {
+                    position: relative;
+                    right: 12px;
+                }
+
+                .form-group.has-error {
+                    input.form-control {
+                        border-bottom: 1px solid red;
+                    }
+
+                    textarea.form-control {
+                        border: 1px solid red;
+                    }
+
+                }
+
+                ///////////////// FORM GROUP
+                .form-group {
+                    position: relative;
+
+                    .invalid-feedback {
+                        position: absolute;
+                        font-family: Montserrat;
+                    }
+
+                    .invalid-feedback-validate {
+                        position: absolute;
+                        ///// List Errors Backend Validation
+                        .list-errors {
+                            list-style: none;
+                            padding-left: 0px;
+
+                            .item-error {
+                                font-size: 80%;
+                                color: #e3342f;
+                                font-family: Montserrat;
+                            }
+                        }
+
+                        ///// End List Errors Backend Validation
+
+                    }
+
+                    .form-control {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        border-radius: 0px;
+                        text-align: left;
+                        letter-spacing: 0.09em;
+                        border: none;
+                        outline: none;
+                        box-shadow: none;
+                        color: #1C1C1C;
+                        border-bottom: 1px solid #6FC3E3;
+                        width: 293px;
+                        height: 43px;
+
+                    }
+
+                    .form-control.form-control-address {
+                        padding-left: 47px;
+                        background: url('/img/tpl_img/icon_form_location.png') #fff 7% 50% no-repeat;
+
+                    }
+
+                    .form-control.form-control-phone {
+                        padding-left: 51px;
+                        background: url('/img/tpl_img/icon_form_phone.png') #fff 8% 50% no-repeat;
+                    }
+
+                    .form-control.form-control-name {
+                        padding-left: 42px;
+                        background: url('/img/tpl_img/icon_form_user.png') #fff 4% 50% no-repeat;
+                    }
+
+                }
+
+                ///////////////// END FORM GROUP
+
+
+            }
+
+            /******************* END STYLE FORM ****************/
+
+        }
+
+    }
+}

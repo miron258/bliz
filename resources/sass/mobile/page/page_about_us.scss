@@ -1,0 +1,372 @@
+/************************************* МОБАЙЛ СТРАНИЦА О НАС ****************************************/
+.block-view-page.block-view-page-about-us {
+
+
+    .container-main-description {
+
+        //padding-left: 28px;
+        //padding-right: 28px;
+
+        &:after{
+            bottom: -117px;
+        }
+        .container {
+
+        }
+
+    }
+
+
+    .description-page.description-page-about-us {
+
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+
+
+        * {
+
+        }
+
+        p {
+            &:first-child {
+
+            }
+
+
+            &:not(:first-child) {
+                margin-top: 18px;
+            }
+        }
+
+
+        //////////// LIST BENEFITS
+        .list-benefits {
+            padding-bottom: 1.5rem;
+
+            .box-benefits.box-benefits4{
+                margin-top: 1rem;
+            }
+            .box-benefits.box-benefits5{
+                margin-top: 1rem;
+            }
+            ///// Box Benefits
+            .box-benefits {
+
+                .inner-box-benefits {
+                    &:not(:first-child) {
+
+                    }
+
+                    .wrapper-icon-benefits {
+                        width: 80px;
+                        height: 80px;
+                        border-radius: 80px;
+
+                        .icon-benefits {
+
+                            height: auto;
+                        }
+
+
+                    }
+
+                    .title-benefits {
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 10px;
+                        line-height: 12px;
+                        color: #1C1C1C;
+                        width: 85px;
+                        word-break: break-word;
+                    }
+
+                }
+            }
+
+            ///// End Box Benefits
+
+
+        }
+
+        //////////// END LIST BENEFITS
+
+
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-about-us {
+
+
+        ////////// Block certificates
+        .block-certificates {
+            margin-top: 4.5rem;
+
+            .wrapper-title-block-certificates {
+                .title-block-certificates {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 31px;
+                    text-align: center;
+
+                    &:after {
+                        background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                        width: 118px;
+                        height: 25px;
+                        bottom: -42px;
+                    }
+                }
+            }
+
+
+            .subtitle-block-certificates {
+                margin-top: 3.5rem;
+                font-size: 14px;
+                line-height: 19px;
+
+                br {
+                    display: none;
+                }
+            }
+
+            ///////////// Slider Certificates
+            .slider-certificates {
+                margin-top: 14px;
+
+                //////////////// navigation arrows
+                .nav-arrows {
+
+                    top: 40%;
+
+
+                    .slick-arrow {
+
+                    }
+
+                    .slick-arrow.slick-carousel-control-next {
+                        //background: url('/img/tpl_img/mobile/arrow_next_black.png') no-repeat;
+                        //width: 20px;
+                        //height: 37px;
+                        right: -10px;
+                        //position: absolute;
+
+                    }
+
+                    .slick-arrow.slick-carousel-control-prev {
+                        //background: url('/img/tpl_img/mobile/arrow_prev_black.png') no-repeat;
+                        //width: 20px;
+                        //height: 37px;
+                        left: -10px;
+                        //position: absolute;
+                    }
+                }
+
+                //////////////// end navigation arrows
+
+                ////// End Nav Arrows Certificates
+
+                .slick-carousel-certificates {
+
+
+                    .slick-list {
+                        margin: 0 0px;
+
+                        .slick-slide {
+                            margin: 0 0px;
+                            height: max-content;
+
+                        }
+
+                    }
+
+
+                    &:before {
+                        display: none;
+                    }
+
+                    &:after {
+                        display: none;
+                    }
+
+                    ////// Box Certificate
+                    .box-certificate {
+                        position: relative;
+                        height: max-content;
+
+                        .name-certificate {
+                            height: auto;
+                            left: 0;
+                            right: 0;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding-bottom: 0.5rem;
+                        }
+
+                        .link-certificate {
+                            padding-left: 33px;
+                            padding-right: 33px;
+                            bottom: 0px;
+
+                            &:hover {
+
+                            }
+
+                            .img-certificate {
+
+
+                            }
+                        }
+
+                    }
+
+                    ////// End Box Certificate
+
+
+                }
+
+            }
+
+            ///////////// End Slider Certificates
+        }
+
+        ////////// End Block certificates
+
+
+        ///////////////////////////// Block Partners
+        .block-partners {
+            display: none;
+        }
+
+        ///////////////////////////// End Block Partners
+
+
+        //////////////////////////// Block Documents
+        .block-documents {
+            display: none;
+        }
+
+        //////////////////////////// End Block Documents
+
+
+        //////////////////////////// End Block Our Technique
+        .block-our-technique {
+
+            margin-top: 0rem;
+            padding-bottom: 4rem;
+
+            .wrapper-title-block-our-technique {
+
+                .title-block-our-technique {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 31px;
+                    text-align: center;
+
+                    &:after {
+                        background: url('/img/tpl_img/mobile/icon_title_mobile.png') no-repeat;
+                        width: 118px;
+                        height: 25px;
+                        bottom: -42px;
+                    }
+                }
+            }
+
+
+            .subtitle-block-our-technique {
+                text-align: justify;
+                margin-top: 3.5rem;
+                font-size: 14px;
+                line-height: 19px;
+
+                br {
+                    display: none;
+                }
+            }
+
+
+            .block-list-our-technique {
+                margin-top: 16px;
+                ///// Our Tech Top Row
+                .list-our-technique.list-our-technique-top {
+                    max-width: 100%;
+
+                    .item-technique.item-technique1 {
+
+                    }
+
+                    .item-technique.item-technique2 {
+                        right: 0px
+                    }
+
+                    .item-technique {
+
+                        .item-technique-img {
+                            min-height: 100%;
+                        }
+
+                    }
+
+                }
+
+
+                //Our Tech Bottom Row
+                .list-our-technique.list-our-technique-bottom {
+                    max-width: 100%;
+
+                    .item-technique.item-technique1 {
+
+                    }
+
+                    .item-technique.item-technique2 {
+
+                    }
+
+                    .item-technique.item-technique3 {
+
+                    }
+
+                    .item-technique {
+
+                        .item-technique-img {
+                            max-width: 100%;
+                            min-height: 100%;
+                        }
+
+                    }
+                }
+
+
+                .list-our-technique {
+
+                    .item-technique {
+
+
+                        .item-technique-img {
+
+                        }
+
+                    }
+                }
+
+
+            }
+
+        }
+
+        //////////////////////////// End Block Our Technique
+
+
+    }
+
+    /////////////////// end html page
+
+
+}
+
+/************************************* КОНЕЦ МОБАЙЛ СТРАНИЦА О НАС ****************************************/

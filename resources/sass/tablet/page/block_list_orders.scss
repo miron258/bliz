@@ -1,0 +1,54 @@
+////////////////////////////////////// BLOCK LIST ORDERS
+.block-list-orders {
+    margin-top: 6rem;
+
+    .title-block-list-orders {
+
+    }
+
+    .row-list-orders {
+
+        .wrapper-list-orders {
+
+
+            .list-orders {
+                padding-left: 2.8rem;
+                /// Item Order
+                .item-order {
+
+
+                    &:not(:first-child) {
+
+                    }
+
+                    &:last-child {
+                        &:after {
+
+                        }
+                    }
+
+
+                    &:after {
+
+                    }
+
+                    .item-link-order {
+
+
+                        &:hover {
+
+                        }
+                    }
+                }
+
+                /// End Item Order
+
+            }
+
+        }
+
+    }
+
+}
+
+////////////////////////////////////// END BLOCK LIST ORDERS

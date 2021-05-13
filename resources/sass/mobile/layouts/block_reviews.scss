@@ -1,0 +1,110 @@
+.block-reviews {
+    padding-left: 0px;
+    padding-right: 0px;
+
+    @import "list_reviews";
+
+}
+
+
+/////////// ПЕРЕЗАПИСЫВАЕМ СТИЛИ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ В БЛОКЕ ОТЗЫВЫ
+.block-reviews.block-reviews-main-page {
+    padding-bottom: 70px;
+    .container-block-reviews {
+
+        .title-block-reviews {
+
+        }
+
+
+        .block-list-reviews {
+
+
+
+
+            .slick-carousel-reviews {
+
+                .slick-list{
+
+                }
+                ////// BOX REVIEW
+                .box-review {
+
+                    .img-reviewer {
+
+
+                        img {
+
+                        }
+
+                    }
+
+                    /////// BLOCK REVIEWER
+                    .block-reviewer {
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        padding-top: 16px;
+                        //////// DESCRIPTION REVIEWER
+                        .description-reviewer {
+
+
+                            .name-reviewer {
+
+                            }
+
+
+                            .text-order {
+
+                            }
+
+                            .location-reviewer {
+
+                                &:before {
+
+                                }
+
+                            }
+
+
+                        }
+
+                        //////// END DESCRIPTION REVIEWER
+
+
+                    }
+
+                    /////// END BLOCK REVIEWER
+
+
+                    //// TEXT REVIEW
+                    .text-review {
+
+                        p {
+
+                        }
+
+                    }
+
+                    //// END TEXT REVIEW
+
+                }
+
+                ////// END BOX REVIEW
+
+            }
+
+
+
+        }
+
+    }
+
+
+}
+/////////// КОНЕЦ ПЕРЕЗАПИСЫВАЕМ СТИЛИ ДЛЯ ГЛАВНОЙ СТРАНИЦЫ В БЛОКЕ ОТЗЫВЫ
+
+
+
+
+
+

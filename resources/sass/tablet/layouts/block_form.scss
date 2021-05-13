@@ -1,0 +1,165 @@
+.block-form {
+    margin-top: 1.125rem;
+    padding-left: 38px;
+    padding-right: 38px;
+
+    .container {
+
+        .container-block-form {
+            padding-top: 20px;
+            padding-bottom: 50px;
+            border-radius: 20px;
+
+            .message-form-order {
+                font-size: 12px;
+                line-height: 18px;
+            }
+
+
+            .title-block-form {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 32px;
+                color: #000000;
+                padding-top: 4.9rem;
+            }
+
+
+            .subtitle-block-form {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+                margin-top: 2rem;
+            }
+
+
+            .title-form-send {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 25px;
+                color: #000000;
+                margin-top: 1.95rem;
+            }
+
+
+            /******************* STYLE FORM ****************/
+            .form-order {
+                margin-top: 3rem;
+
+                .form-group.form-group-btn-send {
+                    margin-top: 1.5rem;
+
+                    .btn-send-callback {
+                        width: 213px;
+                        height: 61.53px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: bold;
+                        text-align: center;
+                        font-size: 21px;
+                        line-height: 61.53px;
+                        color: #FFFFFF;
+                    }
+
+                }
+
+                .wrapper-form-order-fields {
+
+                    .col-phone {
+                        margin-top: 0.6rem;
+                    }
+
+                    .col-address {
+
+                    }
+
+                    .col-name {
+                        margin-top: 0.7rem;
+                    }
+
+
+                    .form-group.form-group-address {
+                        padding-left: 0px;
+                        margin-bottom: 12px;
+                    }
+
+                    .form-group.form-group-phone {
+                        padding-left: 0px;
+                        margin-bottom: 10px;
+                    }
+
+                    .form-group.form-group-name {
+                        padding-left: 0px;
+                        right: 0px;
+                    }
+
+                    .form-group.has-error {
+                        input.form-control {
+
+                        }
+
+                        textarea.form-control {
+
+                        }
+
+                    }
+
+
+                    .form-group {
+                        .invalid-feedback {
+                            text-align: center;
+                            margin-top: 0.05rem;
+                        }
+
+                        .form-control {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 14px;
+                            line-height: 17px;
+                            letter-spacing: 0.09em;
+
+
+                            color: #1C1C1C;
+                            margin: 0 auto;
+                            text-align: left;
+                            width: 293px;
+                            height: 43px;
+                            position: relative;
+                            right: 0px;
+                        }
+
+                    }
+
+                    .form-control.form-control-address {
+                        padding-left: 45px;
+                        background-position: 6% 50%;
+                    }
+
+                    .form-control.form-control-phone {
+                        padding-left: 45px;
+                        background-position: 6% 50%;
+                    }
+
+                    .form-control.form-control-name {
+                        padding-left: 45px;
+                        background-position: 6% 50%;
+                    }
+
+
+                }
+            }
+
+            /******************* END STYLE FORM ****************/
+
+
+        }
+    }
+}

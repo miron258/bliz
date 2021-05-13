@@ -1,0 +1,226 @@
+.block-services {
+   margin-top: 1.85rem;
+
+    //////////////// BLOCK HEADER SERVICES
+    .block-header-services {
+        background: #FFFFFF;
+        border-radius: 40px;
+        padding-top: 3.6rem;
+        padding-bottom: 1.9rem;
+
+        .title-block-services {
+            font-family: Montserrat Alternates;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 3.38rem;
+            line-height: 66px;
+            color: #000000;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            width: max-content;
+
+            &:after {
+                position: absolute;
+                display: block;
+                content: "";
+                background: url('/img/tpl_img/icon_title.png') no-repeat;
+                width: 176px;
+                height: 37px;
+                margin: auto;
+                right: 0;
+                left: 0;
+                bottom: -44px;
+            }
+        }
+
+        .subtitle-block-services {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #343434;
+            margin-top: 4.64rem;
+        }
+    }
+
+    //////////////// END BLOCK HEADER SERVICES
+
+
+    ////////////////// BLOCK LIST SERVICES
+    .slick-carousel-services.slick-slider {
+        margin-top: 1.85rem;
+        ////// Slick List
+        .slick-list {
+
+            .slick-track {
+                //width: 100% !important;
+
+                ////// Slick Slide
+                .slick-slide {
+
+
+                    &:not(:first-child){
+                        position: relative;
+                        left: 0.6rem;
+                    }
+                    &:nth-child(3){
+                        position: relative;
+                        left: 1.2rem;
+                    }
+
+
+                }
+
+                ////// End Slick Slide
+
+
+            }
+
+
+        }
+
+        ////// End Slick List
+
+
+        .box-service.box-service1 {
+
+        }
+
+        .box-service.box-service2 {
+            position: relative;
+            margin-top: 1.82rem;
+
+        }
+
+        .box-service.box-service4 {
+            position: relative;
+            margin-top: 1.82rem;
+
+        }
+
+
+        ////// box service
+        .box-service {
+
+            ///// block img service
+            .block-img-service {
+                position: relative;
+                height: 208px;
+                overflow: hidden;
+                width: 360px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+
+                &:after {
+                    display: block;
+                    content: "";
+                    position: absolute;
+                    background: linear-gradient(180deg, rgba(9, 110, 150, 0) 0%, rgba(41, 133, 184, 0.88) 80.21%);
+                    height: 208px;
+                    width: 100%;
+                    z-index: 2;
+                }
+
+
+                .img-service {
+                    position: absolute;
+                    z-index: 1;
+
+                }
+
+                .name-service {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 27px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    position: absolute;
+                    z-index: 3;
+                    width: 100%;
+                    line-height: 32.91px;
+                    bottom: 1.2rem;
+                }
+
+            }
+
+            ///// end block img serivce
+
+            /////////// BLOCK TEXT SERVICE
+            .block-text-service {
+                background: #fff;
+                width: 360px;
+                height: 220px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                padding-top: 1.74rem;
+                padding-left: 1.875rem;
+                padding-right: 1.875rem;
+                line-height: 20.8px;
+                position: relative;
+                ////// text service
+                .text-service {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    text-align: center;
+                    color: #000000;
+                }
+
+                ////// end text service
+
+
+                ///// link service
+                .link-service {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-align: center;
+                    letter-spacing: 0.07em;
+                    color: #FFFFFF;
+                    outline: none;
+                    box-shadow: none;
+                    text-decoration: none;
+                    bottom: 1.9rem;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: block;
+                    width: 180.85px;
+                    height: 39px;
+                    line-height: 39px;
+                    background: #096E96;
+                    border-radius: 40px;
+                    &:hover {
+                        -webkit-transition: .2s ease-in-out;
+                        transition: .2s ease-in-out;
+                        box-shadow: none;
+                        background: #0092CA;
+                        text-decoration: none;
+                    }
+
+
+                }
+
+                ///// end link service
+            }
+
+        }
+
+        /////////// BLOCK TEXT SERVICE
+
+        ////// end box service
+
+
+    }
+
+    ////////////////// END  SLICK CAROUSEL SERVICES
+
+}

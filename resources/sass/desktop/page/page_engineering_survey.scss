@@ -1,0 +1,253 @@
+.block-view-page.block-view-page-engineering-survey {
+    padding-bottom: 0px;
+
+    .container-main-description {
+        position: relative;
+        padding-bottom: 47px;
+
+
+        /////////////////////// description page
+        .description-page.description-page-engineering-survey {
+            text-align: center;
+            margin-top: 77px;
+
+            * {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #343434;
+            }
+
+
+        }
+
+    }
+
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    //html page
+    .html-page.html-page-engineering-survey {
+        background: #fff;
+
+        /******************************** BLOCK engineering survey top **********************************/
+        .block-engineering-survey-top {
+            padding-top: 191px;
+            /////// Left Column Page
+            .left-column-page {
+
+                .wrapper-title-block-engineering-survey-top {
+
+                    .title-block-engineering-survey-top {
+                        position: relative;
+                        width: max-content;
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 34px;
+                        color: #000000;
+                        position: relative;
+                        right: 3px;
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_waves.png') no-repeat;
+                            width: 73px;
+                            height: 59px;
+                            top: 32px;
+                            left: 3px;
+                        }
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 70px;
+                    width: 515px;
+
+                    b, strong {
+                        font-weight: bold;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+                        margin-bottom: 0px;
+                        &:not(:first-child) {
+margin-top: 15px;
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .middle-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+                text-align: center;
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    top: -70px;
+                    left: -140px;
+                }
+
+
+                .img-right-column-page {
+                    position: relative;
+                    top: 101px;
+
+
+                }
+
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK engineering survey top **********************************/
+
+
+        /******************************** BLOCK engineering survey bottom **********************************/
+        .block-engineering-survey-bottom {
+            margin-top: 65px;
+            /////// Left Column Page
+            .left-column-page {
+                position: relative;
+                &:after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    background: url('/img/usr_img/page_engineering_survey/icon1.png') no-repeat;
+                    width: 181px;
+                    height: 155px;
+                    bottom: 97px;
+                    left: -40px;
+                    right: 0;
+                    margin: auto;
+                }
+                svg {
+                    position: absolute;
+                    top: 10px;
+                    left: -22px;
+                }
+
+                .wrapper-img-left-column-page {
+                    position: relative;
+                    text-align: center;
+                    top: 27px;
+                    img {
+                        position: relative;
+                        top: 124px;
+                        left: 2px;
+
+                    }
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+
+                .text-right-column-page {
+                    margin-top: 0px;
+                    width: 515px;
+
+                    b, strong {
+                        font-weight: bold;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+                        margin-bottom: 0px;
+                        &:not(:first-child) {
+                            margin-top: 15px;
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK engineering survey bottom **********************************/
+
+
+        //////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 121px;
+        }
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+            padding-bottom: 63px;
+        }
+
+    }
+
+}

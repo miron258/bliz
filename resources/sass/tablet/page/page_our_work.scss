@@ -1,0 +1,528 @@
+/************************************* ТАБЛЕТ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/
+.block-view-page.block-view-page-our-work {
+
+    padding-bottom: 31px;
+
+
+    .container-main-description {
+        position: relative;
+        padding-top: 39px;
+        padding-bottom: 0px;
+
+
+        .container {
+
+            position: relative;
+
+
+        }
+
+    }
+
+
+    /////////////////////// description page
+    .description-page.description-page-our-work {
+        margin-top: 5rem;
+
+        * {
+            line-height: 25px;
+        }
+
+        p {
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+        }
+
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-our-work {
+
+
+        //////////////////////////////// BLOCK OUR WORK
+        .block-page-work {
+
+            ////// List Order Work
+            @import "../layouts/list_order_work";
+            background: none;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+
+
+            /// Переписываем некоторые CSS правила из импортированного файла стилей
+            .block-list-order-work {
+                margin-top: 0px;
+                padding-top: 0px;
+
+                .box-order-work {
+
+
+                    .num-order-work {
+
+                    }
+
+
+                    .block-img-order-work {
+                        .img-order-work {
+
+                        }
+                    }
+                }
+            }
+
+            ////// End List Order Work
+        }
+
+        //////////////////////////////// END  BLOCK OUR WORK
+
+
+        ////////////////// Block Gallery Page Our Work
+        .block-gallery-page-our-work {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+
+            .title-gallery-page-our-work {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 2.75rem;
+                line-height: 115%;
+                /* identical to box height, or 51px */
+                text-align: center;
+
+
+                &:after {
+                    background: url('/img/tpl_img/icon_title_tablet.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    bottom: -58px;
+                }
+            }
+
+
+            .block-list-gallery {
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top: 5rem;
+
+                ////////////////// ROW LIST GALLERY
+                .row-list-gallery {
+
+
+                    &:not(:first-child) {
+                        margin-top: 1.5rem;
+                    }
+
+                    ////// Box Gallery
+                    ////////////////////// Box Gallery Left
+                    .box-gallery.box-gallery-left {
+                        position: relative;
+
+
+                        .nav-dots {
+                            bottom: 27px;
+
+                            .slick-dots {
+
+                                .slick-active {
+                                    button {
+
+
+                                        &:before {
+
+                                        }
+                                    }
+                                }
+
+                                li {
+
+
+                                    &:not(:first-child) {
+
+                                    }
+
+                                    button {
+                                        width: 9px;
+                                        height: 9px;
+                                        border-radius: 9px;
+
+                                        &:before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                        }
+                    }
+
+                    ////////////////////// End Box Gallery Left
+
+                    .box-gallery.box-gallery-right {
+                        margin-top: 1.5rem;
+
+                        .description-gallery {
+                            margin-top: 0px;
+                        }
+
+                    }
+
+
+                    .box-gallery {
+
+
+                        .slick-carousel-work-gallery {
+
+                            .slick-dots {
+                                bottom: 10px;
+                                //// Active slick dot
+                                li.slick-active {
+
+                                    button {
+
+
+                                    }
+
+                                }
+
+                                //// End Active slick dot
+
+
+                                //// Not active slick dot
+                                li {
+
+
+                                    button {
+
+
+                                        &:not(:first-child) {
+
+                                        }
+
+
+                                        width: 14px;
+                                        height: 14px;
+                                        border-radius: 14px;
+
+
+                                    }
+                                }
+
+                                //// End Not active slick dot
+
+                            }
+
+                            .img-gallery {
+
+                                height: 253px;
+
+                            }
+                        }
+
+                        .description-gallery {
+                            padding-top: 2rem;
+                            padding-left: 2rem;
+
+                            .list-description-gallery {
+
+
+                                ///// Item Text Gallery
+                                .item-text-gallery {
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                    letter-spacing: 0.05em;
+                                    color: #000000;
+                                    padding-left: 15px;
+
+                                    &:before {
+                                        position: absolute;
+                                        content: "";
+                                        display: block;
+                                        background: url(/img/tpl_img/tablet/check_tablet.png);
+                                        width: 16px;
+                                        height: 16px;
+                                        top: 5px;
+                                        left: -10px;
+                                    }
+
+
+                                    &:not(:first-child) {
+                                        margin-top: 0.6rem;
+                                    }
+
+                                }
+
+                                ///// End Item Text Gallery
+                            }
+
+                        }
+                    }
+
+                    ////// End Box Gallery
+
+
+                }
+
+                ////////////////// END ROW LIST GALLERY
+
+            }
+
+
+        }
+
+        ////////////////// End Block Gallery Page Our Work
+
+
+        ////////////////////////////// BLOCK CASING OPTIONS ////////////////////////////////////
+        .block-casing-options {
+            margin-top: 4.5rem;
+
+            .title-block-casing-options {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 2.75rem;
+                line-height: 115%;
+                /* identical to box height, or 51px */
+                text-align: center;
+
+
+                &:after {
+                    background: url('/img/tpl_img/icon_title_tablet.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    bottom: -58px;
+                }
+            }
+
+
+            .list-casing-options {
+                padding-left: 40px;
+                padding-right: 40px;
+                margin-top: 2rem;
+
+                .slick-carousel-casing-options {
+                    .slick-arrow.slick-disabled {
+                        opacity: 0.5;
+                    }
+
+                    //////////////// navigation arrows
+                    .slick-arrow {
+                        z-index: 3;
+                        border: none;
+                        outline: none;
+                        position: absolute;
+                        top: 40%;
+                    }
+
+                    .slick-arrow.slick-carousel-control-next {
+                        background: url('/img/tpl_img/mobile/arrow_next_black.png') no-repeat;
+                        width: 20px;
+                        height: 37px;
+                        right: -30px;
+                        position: absolute;
+
+                    }
+
+                    .slick-arrow.slick-carousel-control-prev {
+                        background: url('/img/tpl_img/mobile/arrow_prev_black.png') no-repeat;
+                        width: 20px;
+                        height: 37px;
+                        left: -30px;
+                        position: absolute;
+                    }
+
+
+                    //////////////// end navigation arrows
+
+
+                    //////// Box Casing Option
+                    .box-casing-option.box-casing-option1 {
+
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option2 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+
+
+                    }
+
+                    .box-casing-option.box-casing-option3 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    .box-casing-option.box-casing-option4 {
+                        .img-casing-option {
+
+                        }
+
+                        .name-casing-option {
+
+                        }
+                    }
+
+                    //// Default Styles Box Casing Option
+                    .box-casing-option {
+
+                        &:not(:first-child) {
+
+                        }
+
+
+                        .img-casing-option {
+                            max-width: 100%;
+                            height: auto;
+                        }
+
+                        .name-casing-option {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 16px;
+                            line-height: 19px;
+                            margin-top: 10px;
+                            left: 0px;
+                            letter-spacing: 0.05em;
+                            color: #000000;
+                        }
+
+                    }
+
+                    //////// End Box Casing Option
+
+
+                }
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK CASING OPTIONS ////////////////////////////////////
+
+
+        ////////////////////////////// BLOCK FORM ////////////////////////////////////
+        @import '../layouts/block_form';
+        //@import 'blocks_scss_tablet/block_form';
+
+        .block-form {
+            margin-top: 4rem;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        ////////////////////////////// END BLOCK FORM ////////////////////////////////////
+
+
+        ////////////////////////////// BLOCK REQUIREMENTS ////////////////////////////////////
+        .block-requirements {
+            margin-top: 35px;
+
+            .title-block-requirements {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 2.75rem;
+                line-height: 115%;
+                /* identical to box height, or 51px */
+                text-align: center;
+
+
+                &:after {
+                    background: url('/img/tpl_img/icon_title_tablet.png') no-repeat;
+                    width: 176px;
+                    height: 37px;
+                    bottom: -58px;
+                }
+
+                br {
+                    display: none;
+                }
+            }
+
+            .subtitle-block-requirements {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 25px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 5rem;
+                padding-left: 40px;
+                padding-right: 40px;
+
+                br {
+                    display: none;
+                }
+            }
+
+
+            .block-list-requirements {
+                margin-top: 2rem;
+                ////// List Requirements
+                .list-requirements {
+                    padding-left: 89px;
+
+                    .item-requirement {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #000000;
+
+                        &:before {
+                            background: url('/img/tpl_img/tablet/check_tablet.png');
+                            width: 16px;
+                            height: 16px;
+                            left: -30px;
+                            top: 3px;
+                        }
+
+                        &:not(:first-child) {
+                            margin-top: 32px;
+                        }
+                    }
+                }
+
+                ////// End List Requirements
+
+
+            }
+
+        }
+
+        ////////////////////////////// END BLOCK REQUIREMENTS ////////////////////////////////////
+
+
+    }
+
+
+}
+
+/************************************* КОНЕЦ ТАБЛЕТ СТРАНИЦА КАК МЫ РАБОТАЕМ НАШИ РАБОТЫ ****************************************/

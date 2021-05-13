@@ -1,0 +1,227 @@
+.block-view-page.block-view-page-engineering-survey {
+
+
+    .container-main-description {
+
+        .wrapper-header-block-view-page {
+            .header-block-view-page {
+                width: 300px;
+            }
+        }
+
+        /////////////////////// description page
+        .description-page.description-page-engineering-survey {
+
+            br {
+                display: none;
+            }
+
+            * {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+
+        }
+
+    }
+
+    .wavy-line {
+
+    }
+
+
+    //html page
+    .html-page.html-page-engineering-survey {
+
+        padding-top: 0rem;
+
+
+        /******************************** BLOCK engineering survey top **********************************/
+        .block-engineering-survey-top {
+            padding-top: 5.6rem;
+            /////// Left Column Page
+            .left-column-page {
+                padding-left: 15px;
+
+                .wrapper-title-block-engineering-survey-top {
+
+                    .title-block-engineering-survey-top {
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+
+                        &:after {
+                            background: url('/img/tpl_img/mobile/icon_waves_mobile.png') no-repeat;
+                            width: 49px;
+                            height: 40px;
+                            top: 28px;
+                            left: 3px;
+                        }
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 2.5rem;
+
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .middle-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+                padding-left: 15px;
+
+                svg {
+
+                }
+
+
+                .img-right-column-page {
+                    top: 1rem;
+
+                }
+
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK engineering survey top **********************************/
+
+
+        /******************************** BLOCK engineering survey bottom **********************************/
+        .block-engineering-survey-bottom {
+
+            /////// Left Column Page
+            .left-column-page {
+                padding-left: 15px;
+
+                &:after {
+                    display: none;
+                }
+
+                svg {
+
+                }
+
+                .wrapper-img-left-column-page {
+
+                    img {
+                        top: 0.5rem;
+                        left: 0px;
+
+                    }
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+                padding-left: 15px;
+
+                .text-right-column-page {
+                    margin-top: 3rem;
+                    padding-right: 0px;
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+
+                }
+
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK engineering survey bottom **********************************/
+
+
+        //////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 2rem;
+        }
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+    }
+
+}

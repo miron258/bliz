@@ -1,0 +1,22 @@
+// Fonts
+/*@import url('https://fonts.googleapis.com/css?family=Nunito');*/
+// Mixins
+@import 'mixins';
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'fonts';
+@import '~animate.css';
+//@import '~hover.css';
+
+
+@import 'desktop/app';
+@import 'tablet/app';
+@import 'mobile/app';
+
+//Habmburger menu styles
+@import '~mburger-css/src/scss/mburger';
+//@import '~mmenu-js/dist/mmenu.css';
+
+@import '~mhead-js/dist/mhead.css';

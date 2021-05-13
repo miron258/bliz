@@ -1,0 +1,168 @@
+/******************************* Default css ******************************/
+.block-view-category {
+    padding-bottom: 133px;
+    position: relative;
+    .container-main-description{
+        padding-top: 90px;
+        padding-bottom: 90px;
+        background: #F3F9FB;
+        position: relative;
+    }
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    .header-block-view-category {
+        font-family: Montserrat Alternates;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 54px;
+        line-height: 66px;
+        color: #000000;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        width: max-content;
+
+        &:after {
+            position: absolute;
+            display: block;
+            content: "";
+            background: url('/img/tpl_img/icon_title.png') no-repeat;
+            width: 176px;
+            height: 37px;
+            margin: auto;
+            right: 0;
+            left: 0;
+            bottom: -44px;
+        }
+    }
+
+    .block-list-materials {
+
+
+        .row-list-materials {
+
+
+            &:first-child {
+                margin-top: 76px
+            }
+
+            &:not(:first-child) {
+                margin-top: 40px;
+            }
+
+            .box-row-materials {
+
+                &:last-child {
+                    margin-top: 40px;
+                }
+
+                /////// Box Material
+                .box-material {
+
+
+                    .box-img-material-empty {
+                        background: #fff;
+                        width: 360px;
+                        height: 241px;
+                    }
+
+                    .box-img-material {
+
+                        height: 241px;
+                        overflow: hidden;
+                        img {
+                            width: 360px;
+                            overflow: hidden;
+                        }
+                        .img-material {
+
+
+                        }
+                    }
+
+                    .box-anons-material {
+                        padding-left: 10px;
+                        padding-top: 32px;
+
+                        .inner-anons-material {
+
+                            .link-anons-material {
+                                font-family: Montserrat Alternates;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 18px;
+                                line-height: 30px;
+                                text-align: left;
+                                color:  #6FC3E3;
+                                text-decoration: underline;
+                                display: block;
+
+                                &:hover {
+                                    text-decoration: none;
+                                }
+
+                            }
+
+                            .title-anons-material {
+                                font-family: Montserrat Alternates;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 25px;
+                                line-height: 30px;
+                                text-align: left;
+                                color: #000000;
+
+
+                            }
+
+                            .anons-material {
+                                margin-top: 26px;
+
+                                * {
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: normal;
+                                    font-size: 16px;
+                                    line-height: 25px;
+                                    letter-spacing: 0.05em;
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
+
+
+                }
+
+                /////// End Box Material
+
+
+            }
+
+        }
+
+    }
+
+
+    .block-form{
+        margin-top: 162px;
+
+
+    }
+
+
+
+}
+
+
+/******************************* End Default css ******************************/

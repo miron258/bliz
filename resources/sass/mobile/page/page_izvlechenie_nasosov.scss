@@ -1,0 +1,159 @@
+.block-view-page.block-view-page-izvlechenie-nasosov {
+
+
+    .container-main-description {
+
+
+        /////////////////////// description page
+        .description-page.description-page-izvlechenie-nasosov {
+
+            * {
+                font-size: 16px;
+                line-height: 19px;
+            }
+
+            .bottom-paragraph, .top-paragraph {
+
+
+                strong {
+                    font-weight: bold;
+                }
+            }
+
+            .top-paragraph {
+
+            }
+
+            .bottom-paragraph {
+
+            }
+
+        }
+
+    }
+
+    .wavy-line {
+
+    }
+
+
+    //html page
+    .html-page.html-page-izvlechenie-nasosov {
+
+
+        /******************************** BLOCK IZVLECHENIE NASOSOV **********************************/
+        .block-izvlechenie-nasosov {
+            padding-top: 5.6rem;
+            /////// Left Column Page
+            .left-column-page {
+                padding-left: 15px;
+
+                .wrapper-title-block-izvlechenie-nasosov {
+
+                    .title-block-izvlechenie-nasosov {
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 25px;
+                        line-height: 30px;
+                        color: #000000;
+
+                        &:after {
+                            background: url('/img/tpl_img/mobile/icon_waves_mobile.png') no-repeat;
+                            width: 49px;
+                            height: 40px;
+                            top: 28px;
+                            left: 3px;
+                        }
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 2.5rem;
+                    b, strong {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 14px;
+                        line-height: 20px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    p {
+                        &:not(:first-child) {
+
+                        }
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+
+                }
+
+
+            }
+
+            /////// End Left Column Page
+
+
+            /////// Right Column Page
+            .right-column-page {
+                padding-left: 15px;
+                svg {
+                    display: none;
+                }
+
+                .wrapper-img-right-column-page {
+
+
+                    img {
+                        top: 0px;
+                        left: 0px;
+
+                    }
+
+                    &:after {
+
+                    }
+                }
+
+            }
+
+            /////// End Right Column Page
+
+
+        }
+
+        /******************************** END BLOCK IZVLECHENIE NASOSOV **********************************/
+
+
+        //////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+
+        }
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+    }
+
+}

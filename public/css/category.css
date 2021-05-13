@@ -1,0 +1,237 @@
+/******************************* Default css ******************************/
+
+.block-view-category {
+  padding-bottom: 133px;
+  position: relative;
+}
+
+.block-view-category .container-main-description {
+  background: rgba(232, 235, 227, 0.8);
+  padding-top: 126px;
+  padding-bottom: 132px;
+}
+
+.block-view-category .header-block-view-category {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 66px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.block-view-category .block-list-materials .row-list-materials:first-child {
+  margin-top: 76px;
+}
+
+.block-view-category .block-list-materials .row-list-materials:not(:first-child) {
+  margin-top: 40px;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials:last-child {
+  margin-top: 40px;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-img-material-empty {
+  background: #C4C4C4;
+  width: 360px;
+  height: 241px;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material {
+  padding-left: 10px;
+  padding-top: 32px;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .link-anons-material {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: #3EA3BC;
+  text-decoration: underline;
+  display: block;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .link-anons-material:hover {
+  text-decoration: none;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .title-anons-material {
+  font-family: Montserrat Alternates;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material {
+  margin-top: 26px;
+}
+
+.block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material * {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.block-view-category .block-form {
+  margin-top: 120px;
+}
+
+/******************************* End Default css ******************************/
+
+@media (max-width: 1069px) {
+  /******************************* Default css ******************************/
+
+  .block-view-category {
+    padding-bottom: 30px;
+  }
+
+  .block-view-category .container-main-description {
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  .block-view-category .header-block-view-category {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials:first-child {
+    margin-top: 26px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials:not(:first-child) {
+    margin-top: 56px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials:last-child {
+    margin-top: 0px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material.box-material-left {
+    padding-left: 40px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material.box-material-right {
+    padding-left: 10px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-img-material-empty {
+    width: 306.55px;
+    height: 152px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material {
+    padding-left: 0px;
+    padding-top: 15px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material {
+    width: 306.55px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .link-anons-material {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .title-anons-material {
+    font-family: Montserrat Alternates;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material {
+    margin-top: 12px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material p {
+    margin-bottom: 2px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material * {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+
+  .block-view-category .block-form {
+    margin-top: 73px;
+  }
+
+  /******************************* End Default css ******************************/
+}
+
+@media (max-width: 576px) {
+  /******************************* Default css ******************************/
+
+  .block-view-category {
+    padding-bottom: 80px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials:not(:first-child) {
+    margin-top: 34px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials:last-child {
+    margin-top: 43px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material.box-material-left {
+    padding-left: 11px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material.box-material-right {
+    padding-left: 11px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-img-material-empty {
+    width: 100%;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material {
+    width: auto;
+  }
+
+  .block-view-category .block-list-materials .row-list-materials .box-row-materials .box-material .box-anons-material .inner-anons-material .anons-material {
+    margin-top: 11px;
+  }
+
+  .block-view-category .block-form {
+    margin-top: 48px;
+  }
+
+  /******************************* End Default css ******************************/
+}
+

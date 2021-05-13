@@ -1,0 +1,194 @@
+/************************************* СТРАНИЦА РЕМОНТ И ЧИСТКА СКВАЖИН ****************************************/
+.block-view-page.block-view-page-rem-skvazhin {
+
+
+    .container-main-description {
+
+
+    }
+
+    .wavy-line {
+        background: url(/img/tpl_img/wavy_line_tablet.png) no-repeat;
+        height: 75px;
+        background-size: contain;
+    }
+
+    /////////////////////// description page
+    .description-page.description-page-rem-skvazhin {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 5.6rem;
+
+        * {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 158.47%;
+            /* or 32px */
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #343434;
+        }
+
+        p {
+            br {
+                display: none;
+            }
+
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+
+            }
+        }
+
+
+    }
+
+    /////////////////////// end description page
+
+
+    /////////////////// html page
+    .html-page.html-page-rem-skvazhin {
+
+
+        //////////////////////////////////////////////// Block Rem Skvazhina
+        .block-rem-skvazhin {
+            padding-top: 9.7rem;
+
+            /////////////////// LEFT COLUMN PAGE
+            .left-column-page {
+                padding-left: 20px;
+
+                .wrapper-title-block-rem-skvazhin {
+
+                    .title-block-rem-skvazhin {
+                        right: 0px;
+
+                        &:after {
+
+                        }
+
+                    }
+
+                }
+
+
+                .text-left-column-page {
+
+                    margin-top: 4rem;
+                    width: initial;
+
+                    b {
+
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 158.47%;
+                        /* or 25px */
+
+                        letter-spacing: 0.05em;
+
+                        color: #343434;
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                    .img-text-left-column-page {
+
+
+                    }
+                }
+            }
+
+            /////////////////// END LEFT COLUMN PAGE
+
+
+            /////////////////// RIGHT COLUMN PAGE
+            .right-column-page {
+                background: url("/img/tpl_img/bg_right_column_rem_sk.png") 30% 35% no-repeat;
+                padding-left: 10px;
+                svg {
+                    display: none;
+                }
+
+                .list-images {
+
+
+                    &:after {
+                        background: url(/img/usr_img/page_rem_skvazhin/icon1_tablet.png) no-repeat;
+                        width: 187px;
+                        height: 140px;
+                        right: 0px;
+                    }
+
+
+                    .item-li-img.item-li-img-left {
+                        margin-top: 15.7rem;
+                    }
+
+                    .item-li-img.item-li-img-right {
+                        margin-left: 15px;
+                        margin-top: 6.7rem;
+                    }
+
+                    .item-li-img {
+
+
+                        .item-img {
+
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+            /////////////////// END RIGHT COLUMN PAGE
+
+
+        }
+
+        //////////////////////////////////////////////// End Block Auger Drilling
+
+        ////////////////////////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 2.5rem;
+            padding-left: 5px;
+            padding-right: 5px;
+
+        }
+
+        ////////////////////////////////////////////////// END BLOCK FORM
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+
+        }
+
+
+    }
+
+    /////// end html page
+
+
+}

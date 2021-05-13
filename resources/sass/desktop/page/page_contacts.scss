@@ -1,0 +1,130 @@
+/************************************* СТРАНИЦА КОНТАКТЫ ****************************************/
+.block-view-page.block-view-page-contacts {
+    padding-bottom: 79px;
+
+    .container-main-description {
+        position: relative;
+        padding-bottom: 96px;
+        /////////////////////// description page
+        .description-page.description-page-contacts {
+
+
+            .top-paragraph {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 20px;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #343434;
+            }
+
+            .title-contacts {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                margin: 0 auto;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 75px;
+            }
+
+            .link-phone {
+                display: block;
+                position: relative;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                width: max-content;
+                font-size: 22px;
+                line-height: 27px;
+                letter-spacing: 0.08em;
+                text-decoration: none;
+                color: #000000;
+                margin: 0 auto;
+                margin-top: 66px;
+                position: relative;
+                text-align: center;
+
+                &:hover {
+                    text-decoration: none;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    background: url('/img/tpl_img/icon_circle_phone.png') no-repeat;
+                    width: 48px;
+                    height: 48px;
+                    left: -57px;
+                    top: -8px;
+                }
+
+            }
+
+
+            ////// List Communication
+            .list-communication {
+                list-style: none;
+                padding-left: 0px;
+                margin: 0 auto;
+                margin-top: 57px;
+                text-align: center;
+                /// Item communication
+                .item-communication {
+                    display: inline-block;
+
+
+                    &:not(:first-child) {
+                        margin-left: 44px;
+                    }
+
+                    .item-link-communication {
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+
+                    }
+                }
+
+                /// End Item communication
+
+            }
+
+            ////// List Communication
+
+
+        }
+    }
+
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+
+    /////////////////// html page
+    .html-page.html-page-contacts {
+
+
+        //////////////////////////////// BLOCK FORM
+        .block-form {
+
+            margin-top: 154px;
+        }
+    }
+}
+
+/************************************* КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/

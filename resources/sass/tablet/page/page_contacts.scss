@@ -1,0 +1,99 @@
+/************************************* ТАБЛЕТ СТРАНИЦА КОНТАКТЫ ****************************************/
+.block-view-page.block-view-page-contacts {
+    padding-bottom: 0px;
+
+    .container-main-description {
+        padding-top: 32px;
+        padding-bottom: 51px;
+        /////////////////////// description page
+        .description-page.description-page-contacts {
+            margin-top: 5rem;
+
+            .top-paragraph {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 28px;
+            }
+
+            .title-contacts {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 0.05em;
+                color: #000000;
+                margin-top: 43px;
+            }
+
+            .link-phone {
+                margin-top: 3rem;
+font-size: 24px;
+                &:hover {
+
+                }
+
+                &:before {
+
+                    background: url('/img/tpl_img/icon_circle_phone.png') no-repeat;
+                    width: 50px;
+                    height: 50px;
+
+                }
+
+            }
+
+
+            ////// List Communication
+            .list-communication {
+                margin-top: 22px;
+                /// Item communication
+                .item-communication {
+
+
+                    &:not(:first-child) {
+
+                    }
+
+                    .item-link-communication {
+
+
+                        &:hover {
+
+                        }
+
+                    }
+                }
+
+                /// End Item communication
+
+            }
+
+            ////// List Communication
+
+
+        }
+    }
+    .wavy-line {
+        background: url(/img/tpl_img/wavy_line_tablet.png) no-repeat;
+        height: 75px;
+        background-size: contain;
+    }
+    /////////////////// html page
+    .html-page.html-page-contacts {
+
+
+        //////////////////////////////// BLOCK FORM
+        .block-form {
+            margin-top: 4rem;
+padding-bottom: 4rem;
+        }
+    }
+}
+
+/************************************* ТАБЛЕТ КОНЕЦ СТРАНИЦА КОНТАКТЫ ****************************************/

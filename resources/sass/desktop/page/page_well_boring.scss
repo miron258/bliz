@@ -1,0 +1,465 @@
+/************************************* СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
+.block-view-page.block-view-page-well-boring {
+    padding-bottom: 0px;
+
+    .container-main-description {
+        position: relative;
+
+
+    }
+
+    .wavy-line {
+        position: absolute;
+        content: "";
+        display: block;
+        background: url(/img/tpl_img/wavy_line_white.png) #fff center center no-repeat;
+        background-size: cover;
+        height: 101px;
+        width: 100%;
+        z-index: 2;
+    }
+
+    /////////////////////// description page
+    .description-page.description-page-well-boring {
+        text-align: center;
+        margin-top: 77px;
+
+
+        * {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #343434;
+        }
+
+        p {
+            &:first-child {
+
+            }
+
+            &:not(:first-child) {
+                margin-top: 26px;
+            }
+        }
+
+
+    }
+
+    /////////////////////// end description page
+
+
+    /////////////////// html page
+    .html-page.html-page-well-boring {
+        background: #fff;
+
+        //////////////////////////////////////////////// Block Auger Drilling
+        .block-auger-drilling {
+            padding-top: 195px;
+
+            /////////////////// LEFT COLUMN PAGE
+            .left-column-page {
+                .wrapper-title-block-auger-drilling {
+
+                    .title-block-auger-drilling {
+                        position: relative;
+                        width: max-content;
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 34px;
+                        color: #000000;
+                        right: 2px;
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_waves.png') no-repeat;
+                            width: 73px;
+                            height: 59px;
+                            top: 32px;
+                            left: 2px;
+                        }
+
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 70px;
+                    width: 479px;
+                    position: relative;
+
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        display: block;
+                        background: url('/img/usr_img/page_well_boring/icon_page2.png') no-repeat;
+                        width: 29px;
+                        height: 340px;
+                        top: 104px;
+                        right: -57px;
+                    }
+
+                    b {
+                        font-weight: bold;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+                    .top-paragraph {
+
+                    }
+
+                    .bottom-paragraph {
+
+                    }
+
+                    .img-text-left-column-page {
+                        margin-left: 56px;
+                        margin-top: 3px;
+                        position: relative;
+
+
+                        &:after{
+                            display: block;
+                            position: absolute;
+                            content: "";
+                            background: linear-gradient(116.45deg, rgba(163, 163, 163, 0) 32.63%, rgba(126, 126, 126, 0.5) 91.06%);
+                            filter: blur(25px);
+                            border-radius: 50px;
+                            width: 314.5px;
+                            height: 186.5px;
+                        }
+
+                    }
+                }
+            }
+
+            /////////////////// END LEFT COLUMN PAGE
+
+
+            /////////////////// RIGHT COLUMN PAGE
+            .right-column-page {
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    top: -70px;
+                    left: -140px;
+                }
+
+                .list-images {
+                    padding-left: 0px;
+                    list-style: none;
+
+                    .item-li-img.item-li-img-left {
+                        margin-top: 175px;
+                    }
+
+                    .item-li-img.item-li-img-right {
+                        margin-left: 30px;
+                    }
+
+                    .item-li-img {
+                        float: left;
+
+                        .item-img {
+position: relative;
+                        }
+
+                    }
+
+
+                }
+
+            }
+
+            /////////////////// END RIGHT COLUMN PAGE
+
+
+        }
+
+        //////////////////////////////////////////////// End Block Auger Drilling
+
+
+        //////////////////////////////////////////////// Block Flush Drilling
+        .block-flush-drilling {
+            margin-top: 53px;
+            /////////////////// LEFT COLUMN PAGE
+            .left-column-page {
+                .wrapper-title-block-flush-drilling {
+
+                    .title-block-flush-drilling {
+                        position: relative;
+                        width: max-content;
+                        font-family: Montserrat Alternates;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 34px;
+                        color: #000000;
+                        right: 2px;
+
+                        &:after {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                            background: url('/img/tpl_img/icon_waves.png') no-repeat;
+                            width: 73px;
+                            height: 59px;
+                            top: 32px;
+                            left: 2px;
+                        }
+
+                    }
+
+                }
+
+
+                .text-left-column-page {
+                    margin-top: 70px;
+                    width: 510px;
+                    position: relative;
+
+
+                    b {
+                        font-weight: bold;
+                    }
+
+                    * {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        letter-spacing: 0.05em;
+                        color: #343434;
+                    }
+
+
+                }
+            }
+
+            /////////////////// END LEFT COLUMN PAGE
+
+
+            /////////////////// RIGHT COLUMN PAGE
+            .right-column-page {
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    left: -64px;
+                    top: -12px;
+                }
+
+                .list-images {
+                    padding-left: 0px;
+                    list-style: none;
+
+                    .item-li-img.item-li-img-left {
+                        margin-top: 179px;
+                    }
+
+                    .item-li-img.item-li-img-right {
+                        margin-left: 30px;
+                    }
+
+                    .item-li-img {
+
+                        .item-img {
+                            position: relative;
+                        }
+
+                    }
+
+
+                }
+
+                ///// text right column page
+                .text-right-column-page {
+                    margin-top: 54px;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    letter-spacing: 0.05em;
+                    color: #343434;
+
+
+                }
+
+                ///// end text right column page
+
+            }
+
+            /////////////////// END RIGHT COLUMN PAGE
+
+
+        }
+
+        //////////////////////////////////////////////// End Block Flush Drilling
+
+
+        //////////////////////////////////////////////// Block Drawings
+        .block-drawings {
+            margin-top: 130px;
+            background: #F3F9FB;
+            position: relative;
+
+            &:before {
+                position: absolute;
+                content: "";
+                display: block;
+                background: url('/img/tpl_img/wavy_line_top.png') center center no-repeat;
+                background-size: cover;
+                height: 254px;
+                width: 100%;
+                top: -180px;
+                z-index: 0;
+            }
+
+            &:after {
+                position: absolute;
+                content: "";
+                display: block;
+                background: url('/img/tpl_img/wavy_line_bottom.png') center center no-repeat;
+                background-size: cover;
+                height: 251px;
+                width: 100%;
+                bottom: -230px;
+                z-index: 0;
+            }
+
+            .wrapper-title-block-drawings {
+
+                .title-block-drawings {
+                    font-family: Montserrat Alternates;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 54px;
+                    text-align: center;
+                    margin: 0 auto;
+                    color: #000000;
+                    width: max-content;
+                    position: relative;
+
+                    &:after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        background: url('/img/tpl_img/icon_title.png') no-repeat;
+                        width: 176px;
+                        height: 37px;
+                        margin: auto;
+                        right: 0;
+                        left: 0;
+                        bottom: -54px;
+                    }
+                }
+            }
+
+
+            .subtitle-block-drawings {
+                margin: 0 auto;
+                margin-top: 80px;
+                text-align: center;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 158.47%;
+                text-align: center;
+                letter-spacing: 0.05em;
+                color: #000000;
+            }
+
+            .title-list-drawings {
+                font-family: Montserrat Alternates;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                text-align: center;
+                color: #000000;
+                margin-top: 29px;
+                margin-left: 4px;
+            }
+
+            ////// LIST DRAWINGS
+            .list-drawings {
+                margin-top: 40px;
+
+
+                /////// Box Drawing
+                .wrapper-box-drawing {
+                    .box-drawing.box-drawing-left {
+                        .img-drawing {
+
+                        }
+                    }
+
+                    .box-drawing.box-drawing-right {
+                        .img-drawing {
+
+                        }
+                    }
+
+                    .box-drawing {
+                        background: #FFFFFF;
+                        box-shadow: 0px 30px 30px rgba(104, 146, 163, 0.07);
+                        width: 555px;
+                        height: 414px;
+                        z-index: 2;
+                        position: relative;
+                        .img-drawing {
+                            margin: 0 auto;
+                        }
+                    }
+                }
+
+                /////// End Box Drawing
+
+            }
+
+            ////// END LIST DRAWINGS
+
+        }
+
+        ////////////////////////////////////////////////// End Block Drawings
+
+
+        ////////////////////////////////////////////////// BLOCK FORM
+        @import '../layouts/block_form';
+
+        .block-form {
+            margin-top: 311px;
+
+        }
+
+        ////////////////////////////////////////////////// END BLOCK FORM
+
+
+        @import "block_list_orders";
+
+        .block-list-orders {
+            padding-bottom: 55px;
+        }
+
+    }
+
+    /////////////////// end html page
+
+
+}
+
+/************************************* КОНЕЦ СТРАНИЦА БУРЕНИЕ СКВАЖИН ****************************************/
